@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-func GinLog(req, res interface{}) error {
+func GinLog(req, res any) error {
 	reqJson, err := json.Marshal(req)
 	if err != nil {
 		return err
