@@ -7,6 +7,8 @@ import {Test, console2} from "forge-std/Test.sol";
 import "@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol";
 import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
 // import "forge-std/mocks/MockERC721.sol";
+import {AggregatorV3Interface} from "@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol";
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract NFTAuctionV2Test is Test {
 
@@ -28,6 +30,13 @@ contract NFTAuctionV2Test is Test {
 
     address eth = address(0x694AA1769357215DE4FAC081bf1f309aDC325306);
 
+    // address usdc = address(0xA2F78ab2355fe2f984D808B5CeE7FD0A93D5270E);
+
+    address usdcPriceFeedAdress = makeAddr("usdc_address");
+
+    MockUSDC public usdc;
+    
+
     MyNFT nft;
 
 
@@ -40,13 +49,48 @@ contract NFTAuctionV2Test is Test {
         auction = NFTAuctionV2(address(proxyUpgrade));
         // auction = new NFTAuctionV2();
         // auction.initialize(admin);
-        auction.setTest(true);
 
         nft = new MyNFT("Test NFT", "TNFT");
 
-        console2.log("admin:", admin);
-        console2.log("user:", user);
-        console2.log("proxyAdmin:", proxyAdmin);
+        // mock price feed
+        vm.startPrank(admin);
+        usdc = new MockUSDC();
+        usdc.mint(user, 1000);
+        usdc.mint(user1, 1000);
+
+        auction.setPriceFeed(address(usdc), usdcPriceFeedAdress);
+        // usdc : Decimals => 16, price => 500,
+        // IERC20Metadata decimals => 18 
+        // then : 1usdc = 50 usd
+        // 
+        vm.mockCall(
+            usdcPriceFeedAdress,
+            abi.encodeWithSelector(AggregatorV3Interface.decimals.selector),
+            abi.encode(uint8(18))
+        );
+        vm.mockCall(
+            usdcPriceFeedAdress,
+            abi.encodeWithSelector(AggregatorV3Interface.latestRoundData.selector),
+            abi.encode(uint80(0), int256(5000000000), uint256(0), uint256(0), uint80(0))
+        );
+
+
+        // mock eth price feed
+        vm.mockCall(
+            eth,
+            abi.encodeWithSelector(AggregatorV3Interface.decimals.selector),
+            abi.encode(uint8(18))
+        );
+        vm.mockCall(
+            eth,
+            abi.encodeWithSelector(AggregatorV3Interface.latestRoundData.selector),
+            abi.encode(uint80(0), int256(10000000000), uint256(0), uint256(0), uint80(0))
+        );
+        vm.stopPrank();
+
+        // console2.log("admin:", admin);
+        // console2.log("user:", user);
+        // console2.log("proxyAdmin:", proxyAdmin);
     }
 
     function test_InitialValue() public {
@@ -263,24 +307,31 @@ contract NFTAuctionV2Test is Test {
         vm.stopPrank();
 
         vm.startPrank(user);
-        address tkAddress = address(123);
-        auction.placeBid(auctionID, uint256(30), tkAddress);
+        uint256 balanceOfUser = usdc.balanceOf(user);
+        uint256 bidPrice = uint256(30);
+        usdc.approve(address(auction), bidPrice);
+        auction.placeBid(auctionID, bidPrice, address(usdc));
         (address bidder,address tokenAddress, uint256 price, uint256 dollarPrice) = auction.getAuctionHighestInfo(auctionID);
         require(bidder == user, "highest bidder error");
-        require(tokenAddress == tkAddress, "highest token address error");
-        require(price == uint256(30), "highest price error");
+        require(tokenAddress == address(usdc), "highest token address error");
+        require(price == bidPrice, "highest price error");
         require(dollarPrice == uint256(1500), "highest dollar price error");
+        assertEq(usdc.balanceOf(user), balanceOfUser - bidPrice);
         vm.stopPrank();
 
         // 更换用户出价
         vm.startPrank(user1);
-        tkAddress = address(456);
-        auction.placeBid(auctionID, uint256(40), tkAddress);
+        uint256 balanceOfUser1 = usdc.balanceOf(user1);
+        uint256 bidPrice1 = uint256(40);
+        usdc.approve(address(auction), bidPrice1);
+        auction.placeBid(auctionID, bidPrice1, address(usdc));
         (address bidder1,address tokenAddress1,  uint256 price1, uint256 dollarPrice1) = auction.getAuctionHighestInfo(auctionID);
         require(bidder1 == user1, "highest bidder error");
-        require(tokenAddress1 == tkAddress, "highest token address error");
-        require(price1 == uint256(40), "highest price error");
+        require(tokenAddress1 == address(usdc), "highest token address error");
+        require(price1 == bidPrice1, "highest price error");
         require(dollarPrice1 == uint256(2000), "highest dollar price error");
+        assertEq(usdc.balanceOf(user1), balanceOfUser1 - bidPrice1);
+        assertEq(usdc.balanceOf(user), balanceOfUser);
         vm.stopPrank();
     }
 
@@ -357,13 +408,6 @@ contract NFTAuctionV2Test is Test {
         assertEq(auction.getVersion(), "V2");
     }
 
-    function test_SetTest() public { 
-        auction.setTest(false);
-        assertEq(auction.isTest(), false);
-        auction.setTest(true);
-        assertEq(auction.isTest(), true);
-    }
-
     function test_GetAuctionHighestInfo() public {
         uint256 duration = 15;
         uint256 startPrice = 1000;
@@ -399,4 +443,36 @@ contract NFTAuctionV2Test is Test {
         assertEq(auction.name(), _name);
     }
 
+}
+
+contract MockUSDC is ERC20 {
+    uint8 private _decimals;
+    
+    constructor() ERC20("Mock USD Coin", "mUSDC") {
+        _decimals = 6; // USDC 是 6 位小数
+        _mint(msg.sender, 1000000 * 10 ** decimals()); // 初始铸造 100万
+    }
+    
+    function decimals() public view override returns (uint8) {
+        return _decimals;
+    }
+    
+    // 给任何地址铸造 USDC
+    function mint(address to, uint256 amount) external {
+        _mint(to, amount);
+    }
+    
+    // 批量铸造
+    function mintMultiple(address[] memory recipients, uint256[] memory amounts) external {
+        require(recipients.length == amounts.length, "Arrays length mismatch");
+        
+        for (uint i = 0; i < recipients.length; i++) {
+            _mint(recipients[i], amounts[i]);
+        }
+    }
+    
+    // 销毁代币
+    function burn(address from, uint256 amount) external {
+        _burn(from, amount);
+    }
 }

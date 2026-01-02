@@ -49,8 +49,8 @@ export declare const Artifact_Counter: {
       "type": "function"
     }
   ],
-  "bytecode": "0x6080604052348015600e575f5ffd5b506101ff8061001c5f395ff3fe608060405234801561000f575f5ffd5b506004361061003f575f3560e01c80630c55699c14610043578063371303c01461005d57806370119d0614610067575b5f5ffd5b61004b5f5481565b60405190815260200160405180910390f35b61006561007a565b005b61006561007536600461016d565b6100c3565b5f8054908061008883610198565b9091555050604051600181527f51af157c2eee40f68107a47a49c32fbbeb0a3c9e5cd37aa56e88e6be92368a819060200160405180910390a1565b5f81116101225760405162461bcd60e51b815260206004820152602360248201527f696e6342793a20696e6372656d656e742073686f756c6420626520706f73697460448201526269766560e81b606482015260840160405180910390fd5b805f5f82825461013291906101b0565b90915550506040518181527f51af157c2eee40f68107a47a49c32fbbeb0a3c9e5cd37aa56e88e6be92368a819060200160405180910390a150565b5f6020828403121561017d575f5ffd5b5035919050565b634e487b7160e01b5f52601160045260245ffd5b5f600182016101a9576101a9610184565b5060010190565b808201808211156101c3576101c3610184565b9291505056fea2646970667358221220fe9c149efc557b16dccd4dcf4c405e3d9d5f6c37d5a0aba3807b9cbf903a171664736f6c634300081c0033",
-  "deployedBytecode": "0x608060405234801561000f575f5ffd5b506004361061003f575f3560e01c80630c55699c14610043578063371303c01461005d57806370119d0614610067575b5f5ffd5b61004b5f5481565b60405190815260200160405180910390f35b61006561007a565b005b61006561007536600461016d565b6100c3565b5f8054908061008883610198565b9091555050604051600181527f51af157c2eee40f68107a47a49c32fbbeb0a3c9e5cd37aa56e88e6be92368a819060200160405180910390a1565b5f81116101225760405162461bcd60e51b815260206004820152602360248201527f696e6342793a20696e6372656d656e742073686f756c6420626520706f73697460448201526269766560e81b606482015260840160405180910390fd5b805f5f82825461013291906101b0565b90915550506040518181527f51af157c2eee40f68107a47a49c32fbbeb0a3c9e5cd37aa56e88e6be92368a819060200160405180910390a150565b5f6020828403121561017d575f5ffd5b5035919050565b634e487b7160e01b5f52601160045260245ffd5b5f600182016101a9576101a9610184565b5060010190565b808201808211156101c3576101c3610184565b9291505056fea2646970667358221220fe9c149efc557b16dccd4dcf4c405e3d9d5f6c37d5a0aba3807b9cbf903a171664736f6c634300081c0033",
+  "bytecode": "0x6080604052348015600e575f5ffd5b506103cf8061001c5f395ff3fe608060405234801561000f575f5ffd5b506004361061003f575f3560e01c80630c55699c14610043578063371303c01461006157806370119d061461006b575b5f5ffd5b61004b610087565b6040516100589190610187565b60405180910390f35b61006961008c565b005b610085600480360381019061008091906101ce565b6100dc565b005b5f5481565b5f5f81548092919061009d90610226565b91905055507f51af157c2eee40f68107a47a49c32fbbeb0a3c9e5cd37aa56e88e6be92368a8160016040516100d291906102af565b60405180910390a1565b5f811161011e576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161011590610348565b60405180910390fd5b805f5f82825461012e9190610366565b925050819055507f51af157c2eee40f68107a47a49c32fbbeb0a3c9e5cd37aa56e88e6be92368a81816040516101649190610187565b60405180910390a150565b5f819050919050565b6101818161016f565b82525050565b5f60208201905061019a5f830184610178565b92915050565b5f5ffd5b6101ad8161016f565b81146101b7575f5ffd5b50565b5f813590506101c8816101a4565b92915050565b5f602082840312156101e3576101e26101a0565b5b5f6101f0848285016101ba565b91505092915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f6102308261016f565b91507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8203610262576102616101f9565b5b600182019050919050565b5f819050919050565b5f819050919050565b5f61029961029461028f8461026d565b610276565b61016f565b9050919050565b6102a98161027f565b82525050565b5f6020820190506102c25f8301846102a0565b92915050565b5f82825260208201905092915050565b7f696e6342793a20696e6372656d656e742073686f756c6420626520706f7369745f8201527f6976650000000000000000000000000000000000000000000000000000000000602082015250565b5f6103326023836102c8565b915061033d826102d8565b604082019050919050565b5f6020820190508181035f83015261035f81610326565b9050919050565b5f6103708261016f565b915061037b8361016f565b9250828201905080821115610393576103926101f9565b5b9291505056fea2646970667358221220f22907663a824c7d309e49b699e746f50e09fbb0633025086e41c519041d2c1664736f6c634300081c0033",
+  "deployedBytecode": "0x608060405234801561000f575f5ffd5b506004361061003f575f3560e01c80630c55699c14610043578063371303c01461006157806370119d061461006b575b5f5ffd5b61004b610087565b6040516100589190610187565b60405180910390f35b61006961008c565b005b610085600480360381019061008091906101ce565b6100dc565b005b5f5481565b5f5f81548092919061009d90610226565b91905055507f51af157c2eee40f68107a47a49c32fbbeb0a3c9e5cd37aa56e88e6be92368a8160016040516100d291906102af565b60405180910390a1565b5f811161011e576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161011590610348565b60405180910390fd5b805f5f82825461012e9190610366565b925050819055507f51af157c2eee40f68107a47a49c32fbbeb0a3c9e5cd37aa56e88e6be92368a81816040516101649190610187565b60405180910390a150565b5f819050919050565b6101818161016f565b82525050565b5f60208201905061019a5f830184610178565b92915050565b5f5ffd5b6101ad8161016f565b81146101b7575f5ffd5b50565b5f813590506101c8816101a4565b92915050565b5f602082840312156101e3576101e26101a0565b5b5f6101f0848285016101ba565b91505092915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f6102308261016f565b91507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8203610262576102616101f9565b5b600182019050919050565b5f819050919050565b5f819050919050565b5f61029961029461028f8461026d565b610276565b61016f565b9050919050565b6102a98161027f565b82525050565b5f6020820190506102c25f8301846102a0565b92915050565b5f82825260208201905092915050565b7f696e6342793a20696e6372656d656e742073686f756c6420626520706f7369745f8201527f6976650000000000000000000000000000000000000000000000000000000000602082015250565b5f6103326023836102c8565b915061033d826102d8565b604082019050919050565b5f6020820190508181035f83015261035f81610326565b9050919050565b5f6103708261016f565b915061037b8361016f565b9250828201905080821115610393576103926101f9565b5b9291505056fea2646970667358221220f22907663a824c7d309e49b699e746f50e09fbb0633025086e41c519041d2c1664736f6c634300081c0033",
   "linkReferences": {},
   "deployedLinkReferences": {},
   "immutableReferences": {},
@@ -65,129 +65,329 @@ export declare const Artifact_Counter: {
       "functionDebugData": {},
       "generatedSources": [],
       "linkReferences": {},
-      "object": "6080604052348015600e575f5ffd5b506101ff8061001c5f395ff3fe608060405234801561000f575f5ffd5b506004361061003f575f3560e01c80630c55699c14610043578063371303c01461005d57806370119d0614610067575b5f5ffd5b61004b5f5481565b60405190815260200160405180910390f35b61006561007a565b005b61006561007536600461016d565b6100c3565b5f8054908061008883610198565b9091555050604051600181527f51af157c2eee40f68107a47a49c32fbbeb0a3c9e5cd37aa56e88e6be92368a819060200160405180910390a1565b5f81116101225760405162461bcd60e51b815260206004820152602360248201527f696e6342793a20696e6372656d656e742073686f756c6420626520706f73697460448201526269766560e81b606482015260840160405180910390fd5b805f5f82825461013291906101b0565b90915550506040518181527f51af157c2eee40f68107a47a49c32fbbeb0a3c9e5cd37aa56e88e6be92368a819060200160405180910390a150565b5f6020828403121561017d575f5ffd5b5035919050565b634e487b7160e01b5f52601160045260245ffd5b5f600182016101a9576101a9610184565b5060010190565b808201808211156101c3576101c3610184565b9291505056fea2646970667358221220fe9c149efc557b16dccd4dcf4c405e3d9d5f6c37d5a0aba3807b9cbf903a171664736f6c634300081c0033",
-      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 PUSH0 REVERT JUMPDEST POP PUSH2 0x1FF DUP1 PUSH2 0x1C PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0xF JUMPI PUSH0 PUSH0 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH2 0x3F JUMPI PUSH0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xC55699C EQ PUSH2 0x43 JUMPI DUP1 PUSH4 0x371303C0 EQ PUSH2 0x5D JUMPI DUP1 PUSH4 0x70119D06 EQ PUSH2 0x67 JUMPI JUMPDEST PUSH0 PUSH0 REVERT JUMPDEST PUSH2 0x4B PUSH0 SLOAD DUP2 JUMP JUMPDEST PUSH1 0x40 MLOAD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH2 0x65 PUSH2 0x7A JUMP JUMPDEST STOP JUMPDEST PUSH2 0x65 PUSH2 0x75 CALLDATASIZE PUSH1 0x4 PUSH2 0x16D JUMP JUMPDEST PUSH2 0xC3 JUMP JUMPDEST PUSH0 DUP1 SLOAD SWAP1 DUP1 PUSH2 0x88 DUP4 PUSH2 0x198 JUMP JUMPDEST SWAP1 SWAP2 SSTORE POP POP PUSH1 0x40 MLOAD PUSH1 0x1 DUP2 MSTORE PUSH32 0x51AF157C2EEE40F68107A47A49C32FBBEB0A3C9E5CD37AA56E88E6BE92368A81 SWAP1 PUSH1 0x20 ADD PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 LOG1 JUMP JUMPDEST PUSH0 DUP2 GT PUSH2 0x122 JUMPI PUSH1 0x40 MLOAD PUSH3 0x461BCD PUSH1 0xE5 SHL DUP2 MSTORE PUSH1 0x20 PUSH1 0x4 DUP3 ADD MSTORE PUSH1 0x23 PUSH1 0x24 DUP3 ADD MSTORE PUSH32 0x696E6342793A20696E6372656D656E742073686F756C6420626520706F736974 PUSH1 0x44 DUP3 ADD MSTORE PUSH3 0x697665 PUSH1 0xE8 SHL PUSH1 0x64 DUP3 ADD MSTORE PUSH1 0x84 ADD PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 REVERT JUMPDEST DUP1 PUSH0 PUSH0 DUP3 DUP3 SLOAD PUSH2 0x132 SWAP2 SWAP1 PUSH2 0x1B0 JUMP JUMPDEST SWAP1 SWAP2 SSTORE POP POP PUSH1 0x40 MLOAD DUP2 DUP2 MSTORE PUSH32 0x51AF157C2EEE40F68107A47A49C32FBBEB0A3C9E5CD37AA56E88E6BE92368A81 SWAP1 PUSH1 0x20 ADD PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 LOG1 POP JUMP JUMPDEST PUSH0 PUSH1 0x20 DUP3 DUP5 SUB SLT ISZERO PUSH2 0x17D JUMPI PUSH0 PUSH0 REVERT JUMPDEST POP CALLDATALOAD SWAP2 SWAP1 POP JUMP JUMPDEST PUSH4 0x4E487B71 PUSH1 0xE0 SHL PUSH0 MSTORE PUSH1 0x11 PUSH1 0x4 MSTORE PUSH1 0x24 PUSH0 REVERT JUMPDEST PUSH0 PUSH1 0x1 DUP3 ADD PUSH2 0x1A9 JUMPI PUSH2 0x1A9 PUSH2 0x184 JUMP JUMPDEST POP PUSH1 0x1 ADD SWAP1 JUMP JUMPDEST DUP1 DUP3 ADD DUP1 DUP3 GT ISZERO PUSH2 0x1C3 JUMPI PUSH2 0x1C3 PUSH2 0x184 JUMP JUMPDEST SWAP3 SWAP2 POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 INVALID SWAP13 EQ SWAP15 0xFC SSTORE PUSH28 0x16DCCD4DCF4C405E3D9D5F6C37D5A0ABA3807B9CBF903A171664736F PUSH13 0x634300081C0033000000000000 ",
-      "sourceMap": "99:299:2:-:0;;;;;;;;;;;;;;;;;;;"
+      "object": "6080604052348015600e575f5ffd5b506103cf8061001c5f395ff3fe608060405234801561000f575f5ffd5b506004361061003f575f3560e01c80630c55699c14610043578063371303c01461006157806370119d061461006b575b5f5ffd5b61004b610087565b6040516100589190610187565b60405180910390f35b61006961008c565b005b610085600480360381019061008091906101ce565b6100dc565b005b5f5481565b5f5f81548092919061009d90610226565b91905055507f51af157c2eee40f68107a47a49c32fbbeb0a3c9e5cd37aa56e88e6be92368a8160016040516100d291906102af565b60405180910390a1565b5f811161011e576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161011590610348565b60405180910390fd5b805f5f82825461012e9190610366565b925050819055507f51af157c2eee40f68107a47a49c32fbbeb0a3c9e5cd37aa56e88e6be92368a81816040516101649190610187565b60405180910390a150565b5f819050919050565b6101818161016f565b82525050565b5f60208201905061019a5f830184610178565b92915050565b5f5ffd5b6101ad8161016f565b81146101b7575f5ffd5b50565b5f813590506101c8816101a4565b92915050565b5f602082840312156101e3576101e26101a0565b5b5f6101f0848285016101ba565b91505092915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f6102308261016f565b91507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8203610262576102616101f9565b5b600182019050919050565b5f819050919050565b5f819050919050565b5f61029961029461028f8461026d565b610276565b61016f565b9050919050565b6102a98161027f565b82525050565b5f6020820190506102c25f8301846102a0565b92915050565b5f82825260208201905092915050565b7f696e6342793a20696e6372656d656e742073686f756c6420626520706f7369745f8201527f6976650000000000000000000000000000000000000000000000000000000000602082015250565b5f6103326023836102c8565b915061033d826102d8565b604082019050919050565b5f6020820190508181035f83015261035f81610326565b9050919050565b5f6103708261016f565b915061037b8361016f565b9250828201905080821115610393576103926101f9565b5b9291505056fea2646970667358221220f22907663a824c7d309e49b699e746f50e09fbb0633025086e41c519041d2c1664736f6c634300081c0033",
+      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 PUSH0 REVERT JUMPDEST POP PUSH2 0x3CF DUP1 PUSH2 0x1C PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0xF JUMPI PUSH0 PUSH0 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH2 0x3F JUMPI PUSH0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xC55699C EQ PUSH2 0x43 JUMPI DUP1 PUSH4 0x371303C0 EQ PUSH2 0x61 JUMPI DUP1 PUSH4 0x70119D06 EQ PUSH2 0x6B JUMPI JUMPDEST PUSH0 PUSH0 REVERT JUMPDEST PUSH2 0x4B PUSH2 0x87 JUMP JUMPDEST PUSH1 0x40 MLOAD PUSH2 0x58 SWAP2 SWAP1 PUSH2 0x187 JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH2 0x69 PUSH2 0x8C JUMP JUMPDEST STOP JUMPDEST PUSH2 0x85 PUSH1 0x4 DUP1 CALLDATASIZE SUB DUP2 ADD SWAP1 PUSH2 0x80 SWAP2 SWAP1 PUSH2 0x1CE JUMP JUMPDEST PUSH2 0xDC JUMP JUMPDEST STOP JUMPDEST PUSH0 SLOAD DUP2 JUMP JUMPDEST PUSH0 PUSH0 DUP2 SLOAD DUP1 SWAP3 SWAP2 SWAP1 PUSH2 0x9D SWAP1 PUSH2 0x226 JUMP JUMPDEST SWAP2 SWAP1 POP SSTORE POP PUSH32 0x51AF157C2EEE40F68107A47A49C32FBBEB0A3C9E5CD37AA56E88E6BE92368A81 PUSH1 0x1 PUSH1 0x40 MLOAD PUSH2 0xD2 SWAP2 SWAP1 PUSH2 0x2AF JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 LOG1 JUMP JUMPDEST PUSH0 DUP2 GT PUSH2 0x11E JUMPI PUSH1 0x40 MLOAD PUSH32 0x8C379A000000000000000000000000000000000000000000000000000000000 DUP2 MSTORE PUSH1 0x4 ADD PUSH2 0x115 SWAP1 PUSH2 0x348 JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 REVERT JUMPDEST DUP1 PUSH0 PUSH0 DUP3 DUP3 SLOAD PUSH2 0x12E SWAP2 SWAP1 PUSH2 0x366 JUMP JUMPDEST SWAP3 POP POP DUP2 SWAP1 SSTORE POP PUSH32 0x51AF157C2EEE40F68107A47A49C32FBBEB0A3C9E5CD37AA56E88E6BE92368A81 DUP2 PUSH1 0x40 MLOAD PUSH2 0x164 SWAP2 SWAP1 PUSH2 0x187 JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 LOG1 POP JUMP JUMPDEST PUSH0 DUP2 SWAP1 POP SWAP2 SWAP1 POP JUMP JUMPDEST PUSH2 0x181 DUP2 PUSH2 0x16F JUMP JUMPDEST DUP3 MSTORE POP POP JUMP JUMPDEST PUSH0 PUSH1 0x20 DUP3 ADD SWAP1 POP PUSH2 0x19A PUSH0 DUP4 ADD DUP5 PUSH2 0x178 JUMP JUMPDEST SWAP3 SWAP2 POP POP JUMP JUMPDEST PUSH0 PUSH0 REVERT JUMPDEST PUSH2 0x1AD DUP2 PUSH2 0x16F JUMP JUMPDEST DUP2 EQ PUSH2 0x1B7 JUMPI PUSH0 PUSH0 REVERT JUMPDEST POP JUMP JUMPDEST PUSH0 DUP2 CALLDATALOAD SWAP1 POP PUSH2 0x1C8 DUP2 PUSH2 0x1A4 JUMP JUMPDEST SWAP3 SWAP2 POP POP JUMP JUMPDEST PUSH0 PUSH1 0x20 DUP3 DUP5 SUB SLT ISZERO PUSH2 0x1E3 JUMPI PUSH2 0x1E2 PUSH2 0x1A0 JUMP JUMPDEST JUMPDEST PUSH0 PUSH2 0x1F0 DUP5 DUP3 DUP6 ADD PUSH2 0x1BA JUMP JUMPDEST SWAP2 POP POP SWAP3 SWAP2 POP POP JUMP JUMPDEST PUSH32 0x4E487B7100000000000000000000000000000000000000000000000000000000 PUSH0 MSTORE PUSH1 0x11 PUSH1 0x4 MSTORE PUSH1 0x24 PUSH0 REVERT JUMPDEST PUSH0 PUSH2 0x230 DUP3 PUSH2 0x16F JUMP JUMPDEST SWAP2 POP PUSH32 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF DUP3 SUB PUSH2 0x262 JUMPI PUSH2 0x261 PUSH2 0x1F9 JUMP JUMPDEST JUMPDEST PUSH1 0x1 DUP3 ADD SWAP1 POP SWAP2 SWAP1 POP JUMP JUMPDEST PUSH0 DUP2 SWAP1 POP SWAP2 SWAP1 POP JUMP JUMPDEST PUSH0 DUP2 SWAP1 POP SWAP2 SWAP1 POP JUMP JUMPDEST PUSH0 PUSH2 0x299 PUSH2 0x294 PUSH2 0x28F DUP5 PUSH2 0x26D JUMP JUMPDEST PUSH2 0x276 JUMP JUMPDEST PUSH2 0x16F JUMP JUMPDEST SWAP1 POP SWAP2 SWAP1 POP JUMP JUMPDEST PUSH2 0x2A9 DUP2 PUSH2 0x27F JUMP JUMPDEST DUP3 MSTORE POP POP JUMP JUMPDEST PUSH0 PUSH1 0x20 DUP3 ADD SWAP1 POP PUSH2 0x2C2 PUSH0 DUP4 ADD DUP5 PUSH2 0x2A0 JUMP JUMPDEST SWAP3 SWAP2 POP POP JUMP JUMPDEST PUSH0 DUP3 DUP3 MSTORE PUSH1 0x20 DUP3 ADD SWAP1 POP SWAP3 SWAP2 POP POP JUMP JUMPDEST PUSH32 0x696E6342793A20696E6372656D656E742073686F756C6420626520706F736974 PUSH0 DUP3 ADD MSTORE PUSH32 0x6976650000000000000000000000000000000000000000000000000000000000 PUSH1 0x20 DUP3 ADD MSTORE POP JUMP JUMPDEST PUSH0 PUSH2 0x332 PUSH1 0x23 DUP4 PUSH2 0x2C8 JUMP JUMPDEST SWAP2 POP PUSH2 0x33D DUP3 PUSH2 0x2D8 JUMP JUMPDEST PUSH1 0x40 DUP3 ADD SWAP1 POP SWAP2 SWAP1 POP JUMP JUMPDEST PUSH0 PUSH1 0x20 DUP3 ADD SWAP1 POP DUP2 DUP2 SUB PUSH0 DUP4 ADD MSTORE PUSH2 0x35F DUP2 PUSH2 0x326 JUMP JUMPDEST SWAP1 POP SWAP2 SWAP1 POP JUMP JUMPDEST PUSH0 PUSH2 0x370 DUP3 PUSH2 0x16F JUMP JUMPDEST SWAP2 POP PUSH2 0x37B DUP4 PUSH2 0x16F JUMP JUMPDEST SWAP3 POP DUP3 DUP3 ADD SWAP1 POP DUP1 DUP3 GT ISZERO PUSH2 0x393 JUMPI PUSH2 0x392 PUSH2 0x1F9 JUMP JUMPDEST JUMPDEST SWAP3 SWAP2 POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 CALLCODE 0x29 SMOD PUSH7 0x3A824C7D309E49 0xB6 SWAP10 0xE7 CHAINID CREATE2 0xE MULMOD 0xFB 0xB0 PUSH4 0x3025086E COINBASE 0xC5 NOT DIV SAR 0x2C AND PUSH5 0x736F6C6343 STOP ADDMOD SHR STOP CALLER ",
+      "sourceMap": "99:299:32:-:0;;;;;;;;;;;;;;;;;;;"
     },
     "deployedBytecode": {
       "functionDebugData": {
-        "@incBy_8160": {
-          "entryPoint": 195,
-          "id": 8160,
+        "@incBy_16330": {
+          "entryPoint": 220,
+          "id": 16330,
           "parameterSlots": 1,
           "returnSlots": 0
         },
-        "@inc_8139": {
-          "entryPoint": 122,
-          "id": 8139,
+        "@inc_16309": {
+          "entryPoint": 140,
+          "id": 16309,
           "parameterSlots": 0,
           "returnSlots": 0
         },
-        "@x_8124": {
-          "entryPoint": null,
-          "id": 8124,
+        "@x_16294": {
+          "entryPoint": 135,
+          "id": 16294,
           "parameterSlots": 0,
           "returnSlots": 0
         },
-        "abi_decode_tuple_t_uint256": {
-          "entryPoint": 365,
+        "abi_decode_t_uint256": {
+          "entryPoint": 442,
           "id": null,
           "parameterSlots": 2,
           "returnSlots": 1
         },
+        "abi_decode_tuple_t_uint256": {
+          "entryPoint": 462,
+          "id": null,
+          "parameterSlots": 2,
+          "returnSlots": 1
+        },
+        "abi_encode_t_rational_1_by_1_to_t_uint256_fromStack": {
+          "entryPoint": 672,
+          "id": null,
+          "parameterSlots": 2,
+          "returnSlots": 0
+        },
+        "abi_encode_t_stringliteral_fad4697d3fcdb4442d762ccd36772e2a032f18c62f2361e273fa5186a96318ba_to_t_string_memory_ptr_fromStack": {
+          "entryPoint": 806,
+          "id": null,
+          "parameterSlots": 1,
+          "returnSlots": 1
+        },
+        "abi_encode_t_uint256_to_t_uint256_fromStack": {
+          "entryPoint": 376,
+          "id": null,
+          "parameterSlots": 2,
+          "returnSlots": 0
+        },
         "abi_encode_tuple_t_rational_1_by_1__to_t_uint256__fromStack_reversed": {
-          "entryPoint": null,
+          "entryPoint": 687,
           "id": null,
           "parameterSlots": 2,
           "returnSlots": 1
         },
         "abi_encode_tuple_t_stringliteral_fad4697d3fcdb4442d762ccd36772e2a032f18c62f2361e273fa5186a96318ba__to_t_string_memory_ptr__fromStack_reversed": {
-          "entryPoint": null,
+          "entryPoint": 840,
           "id": null,
           "parameterSlots": 1,
           "returnSlots": 1
         },
         "abi_encode_tuple_t_uint256__to_t_uint256__fromStack_reversed": {
+          "entryPoint": 391,
+          "id": null,
+          "parameterSlots": 2,
+          "returnSlots": 1
+        },
+        "allocate_unbounded": {
           "entryPoint": null,
+          "id": null,
+          "parameterSlots": 0,
+          "returnSlots": 1
+        },
+        "array_storeLengthForEncoding_t_string_memory_ptr_fromStack": {
+          "entryPoint": 712,
           "id": null,
           "parameterSlots": 2,
           "returnSlots": 1
         },
         "checked_add_t_uint256": {
-          "entryPoint": 432,
+          "entryPoint": 870,
           "id": null,
           "parameterSlots": 2,
           "returnSlots": 1
         },
+        "cleanup_t_rational_1_by_1": {
+          "entryPoint": 621,
+          "id": null,
+          "parameterSlots": 1,
+          "returnSlots": 1
+        },
+        "cleanup_t_uint256": {
+          "entryPoint": 367,
+          "id": null,
+          "parameterSlots": 1,
+          "returnSlots": 1
+        },
+        "convert_t_rational_1_by_1_to_t_uint256": {
+          "entryPoint": 639,
+          "id": null,
+          "parameterSlots": 1,
+          "returnSlots": 1
+        },
+        "identity": {
+          "entryPoint": 630,
+          "id": null,
+          "parameterSlots": 1,
+          "returnSlots": 1
+        },
         "increment_t_uint256": {
-          "entryPoint": 408,
+          "entryPoint": 550,
           "id": null,
           "parameterSlots": 1,
           "returnSlots": 1
         },
         "panic_error_0x11": {
-          "entryPoint": 388,
+          "entryPoint": 505,
           "id": null,
           "parameterSlots": 0,
+          "returnSlots": 0
+        },
+        "revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db": {
+          "entryPoint": null,
+          "id": null,
+          "parameterSlots": 0,
+          "returnSlots": 0
+        },
+        "revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b": {
+          "entryPoint": 416,
+          "id": null,
+          "parameterSlots": 0,
+          "returnSlots": 0
+        },
+        "store_literal_in_memory_fad4697d3fcdb4442d762ccd36772e2a032f18c62f2361e273fa5186a96318ba": {
+          "entryPoint": 728,
+          "id": null,
+          "parameterSlots": 1,
+          "returnSlots": 0
+        },
+        "validator_revert_t_uint256": {
+          "entryPoint": 420,
+          "id": null,
+          "parameterSlots": 1,
           "returnSlots": 0
         }
       },
       "generatedSources": [
         {
           "ast": {
-            "nativeSrc": "0:1374:3",
+            "nativeSrc": "0:3914:37",
             "nodeType": "YulBlock",
-            "src": "0:1374:3",
+            "src": "0:3914:37",
             "statements": [
               {
-                "nativeSrc": "6:3:3",
-                "nodeType": "YulBlock",
-                "src": "6:3:3",
-                "statements": []
+                "body": {
+                  "nativeSrc": "52:32:37",
+                  "nodeType": "YulBlock",
+                  "src": "52:32:37",
+                  "statements": [
+                    {
+                      "nativeSrc": "62:16:37",
+                      "nodeType": "YulAssignment",
+                      "src": "62:16:37",
+                      "value": {
+                        "name": "value",
+                        "nativeSrc": "73:5:37",
+                        "nodeType": "YulIdentifier",
+                        "src": "73:5:37"
+                      },
+                      "variableNames": [
+                        {
+                          "name": "cleaned",
+                          "nativeSrc": "62:7:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "62:7:37"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "cleanup_t_uint256",
+                "nativeSrc": "7:77:37",
+                "nodeType": "YulFunctionDefinition",
+                "parameters": [
+                  {
+                    "name": "value",
+                    "nativeSrc": "34:5:37",
+                    "nodeType": "YulTypedName",
+                    "src": "34:5:37",
+                    "type": ""
+                  }
+                ],
+                "returnVariables": [
+                  {
+                    "name": "cleaned",
+                    "nativeSrc": "44:7:37",
+                    "nodeType": "YulTypedName",
+                    "src": "44:7:37",
+                    "type": ""
+                  }
+                ],
+                "src": "7:77:37"
               },
               {
                 "body": {
-                  "nativeSrc": "115:76:3",
+                  "nativeSrc": "155:53:37",
                   "nodeType": "YulBlock",
-                  "src": "115:76:3",
+                  "src": "155:53:37",
                   "statements": [
                     {
-                      "nativeSrc": "125:26:3",
+                      "expression": {
+                        "arguments": [
+                          {
+                            "name": "pos",
+                            "nativeSrc": "172:3:37",
+                            "nodeType": "YulIdentifier",
+                            "src": "172:3:37"
+                          },
+                          {
+                            "arguments": [
+                              {
+                                "name": "value",
+                                "nativeSrc": "195:5:37",
+                                "nodeType": "YulIdentifier",
+                                "src": "195:5:37"
+                              }
+                            ],
+                            "functionName": {
+                              "name": "cleanup_t_uint256",
+                              "nativeSrc": "177:17:37",
+                              "nodeType": "YulIdentifier",
+                              "src": "177:17:37"
+                            },
+                            "nativeSrc": "177:24:37",
+                            "nodeType": "YulFunctionCall",
+                            "src": "177:24:37"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "mstore",
+                          "nativeSrc": "165:6:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "165:6:37"
+                        },
+                        "nativeSrc": "165:37:37",
+                        "nodeType": "YulFunctionCall",
+                        "src": "165:37:37"
+                      },
+                      "nativeSrc": "165:37:37",
+                      "nodeType": "YulExpressionStatement",
+                      "src": "165:37:37"
+                    }
+                  ]
+                },
+                "name": "abi_encode_t_uint256_to_t_uint256_fromStack",
+                "nativeSrc": "90:118:37",
+                "nodeType": "YulFunctionDefinition",
+                "parameters": [
+                  {
+                    "name": "value",
+                    "nativeSrc": "143:5:37",
+                    "nodeType": "YulTypedName",
+                    "src": "143:5:37",
+                    "type": ""
+                  },
+                  {
+                    "name": "pos",
+                    "nativeSrc": "150:3:37",
+                    "nodeType": "YulTypedName",
+                    "src": "150:3:37",
+                    "type": ""
+                  }
+                ],
+                "src": "90:118:37"
+              },
+              {
+                "body": {
+                  "nativeSrc": "312:124:37",
+                  "nodeType": "YulBlock",
+                  "src": "312:124:37",
+                  "statements": [
+                    {
+                      "nativeSrc": "322:26:37",
                       "nodeType": "YulAssignment",
-                      "src": "125:26:3",
+                      "src": "322:26:37",
                       "value": {
                         "arguments": [
                           {
                             "name": "headStart",
-                            "nativeSrc": "137:9:3",
+                            "nativeSrc": "334:9:37",
                             "nodeType": "YulIdentifier",
-                            "src": "137:9:3"
+                            "src": "334:9:37"
                           },
                           {
                             "kind": "number",
-                            "nativeSrc": "148:2:3",
+                            "nativeSrc": "345:2:37",
                             "nodeType": "YulLiteral",
-                            "src": "148:2:3",
+                            "src": "345:2:37",
                             "type": "",
                             "value": "32"
                           }
                         ],
                         "functionName": {
                           "name": "add",
-                          "nativeSrc": "133:3:3",
+                          "nativeSrc": "330:3:37",
                           "nodeType": "YulIdentifier",
-                          "src": "133:3:3"
+                          "src": "330:3:37"
                         },
-                        "nativeSrc": "133:18:3",
+                        "nativeSrc": "330:18:37",
                         "nodeType": "YulFunctionCall",
-                        "src": "133:18:3"
+                        "src": "330:18:37"
                       },
                       "variableNames": [
                         {
                           "name": "tail",
-                          "nativeSrc": "125:4:3",
+                          "nativeSrc": "322:4:37",
                           "nodeType": "YulIdentifier",
-                          "src": "125:4:3"
+                          "src": "322:4:37"
                         }
                       ]
                     },
@@ -195,109 +395,476 @@ export declare const Artifact_Counter: {
                       "expression": {
                         "arguments": [
                           {
-                            "name": "headStart",
-                            "nativeSrc": "167:9:3",
+                            "name": "value0",
+                            "nativeSrc": "402:6:37",
                             "nodeType": "YulIdentifier",
-                            "src": "167:9:3"
+                            "src": "402:6:37"
                           },
                           {
-                            "name": "value0",
-                            "nativeSrc": "178:6:3",
-                            "nodeType": "YulIdentifier",
-                            "src": "178:6:3"
+                            "arguments": [
+                              {
+                                "name": "headStart",
+                                "nativeSrc": "415:9:37",
+                                "nodeType": "YulIdentifier",
+                                "src": "415:9:37"
+                              },
+                              {
+                                "kind": "number",
+                                "nativeSrc": "426:1:37",
+                                "nodeType": "YulLiteral",
+                                "src": "426:1:37",
+                                "type": "",
+                                "value": "0"
+                              }
+                            ],
+                            "functionName": {
+                              "name": "add",
+                              "nativeSrc": "411:3:37",
+                              "nodeType": "YulIdentifier",
+                              "src": "411:3:37"
+                            },
+                            "nativeSrc": "411:17:37",
+                            "nodeType": "YulFunctionCall",
+                            "src": "411:17:37"
                           }
                         ],
                         "functionName": {
-                          "name": "mstore",
-                          "nativeSrc": "160:6:3",
+                          "name": "abi_encode_t_uint256_to_t_uint256_fromStack",
+                          "nativeSrc": "358:43:37",
                           "nodeType": "YulIdentifier",
-                          "src": "160:6:3"
+                          "src": "358:43:37"
                         },
-                        "nativeSrc": "160:25:3",
+                        "nativeSrc": "358:71:37",
                         "nodeType": "YulFunctionCall",
-                        "src": "160:25:3"
+                        "src": "358:71:37"
                       },
-                      "nativeSrc": "160:25:3",
+                      "nativeSrc": "358:71:37",
                       "nodeType": "YulExpressionStatement",
-                      "src": "160:25:3"
+                      "src": "358:71:37"
                     }
                   ]
                 },
                 "name": "abi_encode_tuple_t_uint256__to_t_uint256__fromStack_reversed",
-                "nativeSrc": "14:177:3",
+                "nativeSrc": "214:222:37",
                 "nodeType": "YulFunctionDefinition",
                 "parameters": [
                   {
                     "name": "headStart",
-                    "nativeSrc": "84:9:3",
+                    "nativeSrc": "284:9:37",
                     "nodeType": "YulTypedName",
-                    "src": "84:9:3",
+                    "src": "284:9:37",
                     "type": ""
                   },
                   {
                     "name": "value0",
-                    "nativeSrc": "95:6:3",
+                    "nativeSrc": "296:6:37",
                     "nodeType": "YulTypedName",
-                    "src": "95:6:3",
+                    "src": "296:6:37",
                     "type": ""
                   }
                 ],
                 "returnVariables": [
                   {
                     "name": "tail",
-                    "nativeSrc": "106:4:3",
+                    "nativeSrc": "307:4:37",
                     "nodeType": "YulTypedName",
-                    "src": "106:4:3",
+                    "src": "307:4:37",
                     "type": ""
                   }
                 ],
-                "src": "14:177:3"
+                "src": "214:222:37"
               },
               {
                 "body": {
-                  "nativeSrc": "266:110:3",
+                  "nativeSrc": "482:35:37",
                   "nodeType": "YulBlock",
-                  "src": "266:110:3",
+                  "src": "482:35:37",
+                  "statements": [
+                    {
+                      "nativeSrc": "492:19:37",
+                      "nodeType": "YulAssignment",
+                      "src": "492:19:37",
+                      "value": {
+                        "arguments": [
+                          {
+                            "kind": "number",
+                            "nativeSrc": "508:2:37",
+                            "nodeType": "YulLiteral",
+                            "src": "508:2:37",
+                            "type": "",
+                            "value": "64"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "mload",
+                          "nativeSrc": "502:5:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "502:5:37"
+                        },
+                        "nativeSrc": "502:9:37",
+                        "nodeType": "YulFunctionCall",
+                        "src": "502:9:37"
+                      },
+                      "variableNames": [
+                        {
+                          "name": "memPtr",
+                          "nativeSrc": "492:6:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "492:6:37"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "allocate_unbounded",
+                "nativeSrc": "442:75:37",
+                "nodeType": "YulFunctionDefinition",
+                "returnVariables": [
+                  {
+                    "name": "memPtr",
+                    "nativeSrc": "475:6:37",
+                    "nodeType": "YulTypedName",
+                    "src": "475:6:37",
+                    "type": ""
+                  }
+                ],
+                "src": "442:75:37"
+              },
+              {
+                "body": {
+                  "nativeSrc": "612:28:37",
+                  "nodeType": "YulBlock",
+                  "src": "612:28:37",
+                  "statements": [
+                    {
+                      "expression": {
+                        "arguments": [
+                          {
+                            "kind": "number",
+                            "nativeSrc": "629:1:37",
+                            "nodeType": "YulLiteral",
+                            "src": "629:1:37",
+                            "type": "",
+                            "value": "0"
+                          },
+                          {
+                            "kind": "number",
+                            "nativeSrc": "632:1:37",
+                            "nodeType": "YulLiteral",
+                            "src": "632:1:37",
+                            "type": "",
+                            "value": "0"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "revert",
+                          "nativeSrc": "622:6:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "622:6:37"
+                        },
+                        "nativeSrc": "622:12:37",
+                        "nodeType": "YulFunctionCall",
+                        "src": "622:12:37"
+                      },
+                      "nativeSrc": "622:12:37",
+                      "nodeType": "YulExpressionStatement",
+                      "src": "622:12:37"
+                    }
+                  ]
+                },
+                "name": "revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b",
+                "nativeSrc": "523:117:37",
+                "nodeType": "YulFunctionDefinition",
+                "src": "523:117:37"
+              },
+              {
+                "body": {
+                  "nativeSrc": "735:28:37",
+                  "nodeType": "YulBlock",
+                  "src": "735:28:37",
+                  "statements": [
+                    {
+                      "expression": {
+                        "arguments": [
+                          {
+                            "kind": "number",
+                            "nativeSrc": "752:1:37",
+                            "nodeType": "YulLiteral",
+                            "src": "752:1:37",
+                            "type": "",
+                            "value": "0"
+                          },
+                          {
+                            "kind": "number",
+                            "nativeSrc": "755:1:37",
+                            "nodeType": "YulLiteral",
+                            "src": "755:1:37",
+                            "type": "",
+                            "value": "0"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "revert",
+                          "nativeSrc": "745:6:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "745:6:37"
+                        },
+                        "nativeSrc": "745:12:37",
+                        "nodeType": "YulFunctionCall",
+                        "src": "745:12:37"
+                      },
+                      "nativeSrc": "745:12:37",
+                      "nodeType": "YulExpressionStatement",
+                      "src": "745:12:37"
+                    }
+                  ]
+                },
+                "name": "revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db",
+                "nativeSrc": "646:117:37",
+                "nodeType": "YulFunctionDefinition",
+                "src": "646:117:37"
+              },
+              {
+                "body": {
+                  "nativeSrc": "812:79:37",
+                  "nodeType": "YulBlock",
+                  "src": "812:79:37",
                   "statements": [
                     {
                       "body": {
-                        "nativeSrc": "312:16:3",
+                        "nativeSrc": "869:16:37",
                         "nodeType": "YulBlock",
-                        "src": "312:16:3",
+                        "src": "869:16:37",
                         "statements": [
                           {
                             "expression": {
                               "arguments": [
                                 {
                                   "kind": "number",
-                                  "nativeSrc": "321:1:3",
+                                  "nativeSrc": "878:1:37",
                                   "nodeType": "YulLiteral",
-                                  "src": "321:1:3",
+                                  "src": "878:1:37",
                                   "type": "",
                                   "value": "0"
                                 },
                                 {
                                   "kind": "number",
-                                  "nativeSrc": "324:1:3",
+                                  "nativeSrc": "881:1:37",
                                   "nodeType": "YulLiteral",
-                                  "src": "324:1:3",
+                                  "src": "881:1:37",
                                   "type": "",
                                   "value": "0"
                                 }
                               ],
                               "functionName": {
                                 "name": "revert",
-                                "nativeSrc": "314:6:3",
+                                "nativeSrc": "871:6:37",
                                 "nodeType": "YulIdentifier",
-                                "src": "314:6:3"
+                                "src": "871:6:37"
                               },
-                              "nativeSrc": "314:12:3",
+                              "nativeSrc": "871:12:37",
                               "nodeType": "YulFunctionCall",
-                              "src": "314:12:3"
+                              "src": "871:12:37"
                             },
-                            "nativeSrc": "314:12:3",
+                            "nativeSrc": "871:12:37",
                             "nodeType": "YulExpressionStatement",
-                            "src": "314:12:3"
+                            "src": "871:12:37"
+                          }
+                        ]
+                      },
+                      "condition": {
+                        "arguments": [
+                          {
+                            "arguments": [
+                              {
+                                "name": "value",
+                                "nativeSrc": "835:5:37",
+                                "nodeType": "YulIdentifier",
+                                "src": "835:5:37"
+                              },
+                              {
+                                "arguments": [
+                                  {
+                                    "name": "value",
+                                    "nativeSrc": "860:5:37",
+                                    "nodeType": "YulIdentifier",
+                                    "src": "860:5:37"
+                                  }
+                                ],
+                                "functionName": {
+                                  "name": "cleanup_t_uint256",
+                                  "nativeSrc": "842:17:37",
+                                  "nodeType": "YulIdentifier",
+                                  "src": "842:17:37"
+                                },
+                                "nativeSrc": "842:24:37",
+                                "nodeType": "YulFunctionCall",
+                                "src": "842:24:37"
+                              }
+                            ],
+                            "functionName": {
+                              "name": "eq",
+                              "nativeSrc": "832:2:37",
+                              "nodeType": "YulIdentifier",
+                              "src": "832:2:37"
+                            },
+                            "nativeSrc": "832:35:37",
+                            "nodeType": "YulFunctionCall",
+                            "src": "832:35:37"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "iszero",
+                          "nativeSrc": "825:6:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "825:6:37"
+                        },
+                        "nativeSrc": "825:43:37",
+                        "nodeType": "YulFunctionCall",
+                        "src": "825:43:37"
+                      },
+                      "nativeSrc": "822:63:37",
+                      "nodeType": "YulIf",
+                      "src": "822:63:37"
+                    }
+                  ]
+                },
+                "name": "validator_revert_t_uint256",
+                "nativeSrc": "769:122:37",
+                "nodeType": "YulFunctionDefinition",
+                "parameters": [
+                  {
+                    "name": "value",
+                    "nativeSrc": "805:5:37",
+                    "nodeType": "YulTypedName",
+                    "src": "805:5:37",
+                    "type": ""
+                  }
+                ],
+                "src": "769:122:37"
+              },
+              {
+                "body": {
+                  "nativeSrc": "949:87:37",
+                  "nodeType": "YulBlock",
+                  "src": "949:87:37",
+                  "statements": [
+                    {
+                      "nativeSrc": "959:29:37",
+                      "nodeType": "YulAssignment",
+                      "src": "959:29:37",
+                      "value": {
+                        "arguments": [
+                          {
+                            "name": "offset",
+                            "nativeSrc": "981:6:37",
+                            "nodeType": "YulIdentifier",
+                            "src": "981:6:37"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "calldataload",
+                          "nativeSrc": "968:12:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "968:12:37"
+                        },
+                        "nativeSrc": "968:20:37",
+                        "nodeType": "YulFunctionCall",
+                        "src": "968:20:37"
+                      },
+                      "variableNames": [
+                        {
+                          "name": "value",
+                          "nativeSrc": "959:5:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "959:5:37"
+                        }
+                      ]
+                    },
+                    {
+                      "expression": {
+                        "arguments": [
+                          {
+                            "name": "value",
+                            "nativeSrc": "1024:5:37",
+                            "nodeType": "YulIdentifier",
+                            "src": "1024:5:37"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "validator_revert_t_uint256",
+                          "nativeSrc": "997:26:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "997:26:37"
+                        },
+                        "nativeSrc": "997:33:37",
+                        "nodeType": "YulFunctionCall",
+                        "src": "997:33:37"
+                      },
+                      "nativeSrc": "997:33:37",
+                      "nodeType": "YulExpressionStatement",
+                      "src": "997:33:37"
+                    }
+                  ]
+                },
+                "name": "abi_decode_t_uint256",
+                "nativeSrc": "897:139:37",
+                "nodeType": "YulFunctionDefinition",
+                "parameters": [
+                  {
+                    "name": "offset",
+                    "nativeSrc": "927:6:37",
+                    "nodeType": "YulTypedName",
+                    "src": "927:6:37",
+                    "type": ""
+                  },
+                  {
+                    "name": "end",
+                    "nativeSrc": "935:3:37",
+                    "nodeType": "YulTypedName",
+                    "src": "935:3:37",
+                    "type": ""
+                  }
+                ],
+                "returnVariables": [
+                  {
+                    "name": "value",
+                    "nativeSrc": "943:5:37",
+                    "nodeType": "YulTypedName",
+                    "src": "943:5:37",
+                    "type": ""
+                  }
+                ],
+                "src": "897:139:37"
+              },
+              {
+                "body": {
+                  "nativeSrc": "1108:263:37",
+                  "nodeType": "YulBlock",
+                  "src": "1108:263:37",
+                  "statements": [
+                    {
+                      "body": {
+                        "nativeSrc": "1154:83:37",
+                        "nodeType": "YulBlock",
+                        "src": "1154:83:37",
+                        "statements": [
+                          {
+                            "expression": {
+                              "arguments": [],
+                              "functionName": {
+                                "name": "revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b",
+                                "nativeSrc": "1156:77:37",
+                                "nodeType": "YulIdentifier",
+                                "src": "1156:77:37"
+                              },
+                              "nativeSrc": "1156:79:37",
+                              "nodeType": "YulFunctionCall",
+                              "src": "1156:79:37"
+                            },
+                            "nativeSrc": "1156:79:37",
+                            "nodeType": "YulExpressionStatement",
+                            "src": "1156:79:37"
                           }
                         ]
                       },
@@ -307,278 +874,343 @@ export declare const Artifact_Counter: {
                             "arguments": [
                               {
                                 "name": "dataEnd",
-                                "nativeSrc": "287:7:3",
+                                "nativeSrc": "1129:7:37",
                                 "nodeType": "YulIdentifier",
-                                "src": "287:7:3"
+                                "src": "1129:7:37"
                               },
                               {
                                 "name": "headStart",
-                                "nativeSrc": "296:9:3",
+                                "nativeSrc": "1138:9:37",
                                 "nodeType": "YulIdentifier",
-                                "src": "296:9:3"
+                                "src": "1138:9:37"
                               }
                             ],
                             "functionName": {
                               "name": "sub",
-                              "nativeSrc": "283:3:3",
+                              "nativeSrc": "1125:3:37",
                               "nodeType": "YulIdentifier",
-                              "src": "283:3:3"
+                              "src": "1125:3:37"
                             },
-                            "nativeSrc": "283:23:3",
+                            "nativeSrc": "1125:23:37",
                             "nodeType": "YulFunctionCall",
-                            "src": "283:23:3"
+                            "src": "1125:23:37"
                           },
                           {
                             "kind": "number",
-                            "nativeSrc": "308:2:3",
+                            "nativeSrc": "1150:2:37",
                             "nodeType": "YulLiteral",
-                            "src": "308:2:3",
+                            "src": "1150:2:37",
                             "type": "",
                             "value": "32"
                           }
                         ],
                         "functionName": {
                           "name": "slt",
-                          "nativeSrc": "279:3:3",
+                          "nativeSrc": "1121:3:37",
                           "nodeType": "YulIdentifier",
-                          "src": "279:3:3"
+                          "src": "1121:3:37"
                         },
-                        "nativeSrc": "279:32:3",
+                        "nativeSrc": "1121:32:37",
                         "nodeType": "YulFunctionCall",
-                        "src": "279:32:3"
+                        "src": "1121:32:37"
                       },
-                      "nativeSrc": "276:52:3",
+                      "nativeSrc": "1118:119:37",
                       "nodeType": "YulIf",
-                      "src": "276:52:3"
+                      "src": "1118:119:37"
                     },
                     {
-                      "nativeSrc": "337:33:3",
-                      "nodeType": "YulAssignment",
-                      "src": "337:33:3",
-                      "value": {
-                        "arguments": [
-                          {
-                            "name": "headStart",
-                            "nativeSrc": "360:9:3",
-                            "nodeType": "YulIdentifier",
-                            "src": "360:9:3"
-                          }
-                        ],
-                        "functionName": {
-                          "name": "calldataload",
-                          "nativeSrc": "347:12:3",
-                          "nodeType": "YulIdentifier",
-                          "src": "347:12:3"
-                        },
-                        "nativeSrc": "347:23:3",
-                        "nodeType": "YulFunctionCall",
-                        "src": "347:23:3"
-                      },
-                      "variableNames": [
+                      "nativeSrc": "1247:117:37",
+                      "nodeType": "YulBlock",
+                      "src": "1247:117:37",
+                      "statements": [
                         {
-                          "name": "value0",
-                          "nativeSrc": "337:6:3",
-                          "nodeType": "YulIdentifier",
-                          "src": "337:6:3"
+                          "nativeSrc": "1262:15:37",
+                          "nodeType": "YulVariableDeclaration",
+                          "src": "1262:15:37",
+                          "value": {
+                            "kind": "number",
+                            "nativeSrc": "1276:1:37",
+                            "nodeType": "YulLiteral",
+                            "src": "1276:1:37",
+                            "type": "",
+                            "value": "0"
+                          },
+                          "variables": [
+                            {
+                              "name": "offset",
+                              "nativeSrc": "1266:6:37",
+                              "nodeType": "YulTypedName",
+                              "src": "1266:6:37",
+                              "type": ""
+                            }
+                          ]
+                        },
+                        {
+                          "nativeSrc": "1291:63:37",
+                          "nodeType": "YulAssignment",
+                          "src": "1291:63:37",
+                          "value": {
+                            "arguments": [
+                              {
+                                "arguments": [
+                                  {
+                                    "name": "headStart",
+                                    "nativeSrc": "1326:9:37",
+                                    "nodeType": "YulIdentifier",
+                                    "src": "1326:9:37"
+                                  },
+                                  {
+                                    "name": "offset",
+                                    "nativeSrc": "1337:6:37",
+                                    "nodeType": "YulIdentifier",
+                                    "src": "1337:6:37"
+                                  }
+                                ],
+                                "functionName": {
+                                  "name": "add",
+                                  "nativeSrc": "1322:3:37",
+                                  "nodeType": "YulIdentifier",
+                                  "src": "1322:3:37"
+                                },
+                                "nativeSrc": "1322:22:37",
+                                "nodeType": "YulFunctionCall",
+                                "src": "1322:22:37"
+                              },
+                              {
+                                "name": "dataEnd",
+                                "nativeSrc": "1346:7:37",
+                                "nodeType": "YulIdentifier",
+                                "src": "1346:7:37"
+                              }
+                            ],
+                            "functionName": {
+                              "name": "abi_decode_t_uint256",
+                              "nativeSrc": "1301:20:37",
+                              "nodeType": "YulIdentifier",
+                              "src": "1301:20:37"
+                            },
+                            "nativeSrc": "1301:53:37",
+                            "nodeType": "YulFunctionCall",
+                            "src": "1301:53:37"
+                          },
+                          "variableNames": [
+                            {
+                              "name": "value0",
+                              "nativeSrc": "1291:6:37",
+                              "nodeType": "YulIdentifier",
+                              "src": "1291:6:37"
+                            }
+                          ]
                         }
                       ]
                     }
                   ]
                 },
                 "name": "abi_decode_tuple_t_uint256",
-                "nativeSrc": "196:180:3",
+                "nativeSrc": "1042:329:37",
                 "nodeType": "YulFunctionDefinition",
                 "parameters": [
                   {
                     "name": "headStart",
-                    "nativeSrc": "232:9:3",
+                    "nativeSrc": "1078:9:37",
                     "nodeType": "YulTypedName",
-                    "src": "232:9:3",
+                    "src": "1078:9:37",
                     "type": ""
                   },
                   {
                     "name": "dataEnd",
-                    "nativeSrc": "243:7:3",
+                    "nativeSrc": "1089:7:37",
                     "nodeType": "YulTypedName",
-                    "src": "243:7:3",
+                    "src": "1089:7:37",
                     "type": ""
                   }
                 ],
                 "returnVariables": [
                   {
                     "name": "value0",
-                    "nativeSrc": "255:6:3",
+                    "nativeSrc": "1101:6:37",
                     "nodeType": "YulTypedName",
-                    "src": "255:6:3",
+                    "src": "1101:6:37",
                     "type": ""
                   }
                 ],
-                "src": "196:180:3"
+                "src": "1042:329:37"
               },
               {
                 "body": {
-                  "nativeSrc": "413:95:3",
+                  "nativeSrc": "1405:152:37",
                   "nodeType": "YulBlock",
-                  "src": "413:95:3",
+                  "src": "1405:152:37",
                   "statements": [
                     {
                       "expression": {
                         "arguments": [
                           {
                             "kind": "number",
-                            "nativeSrc": "430:1:3",
+                            "nativeSrc": "1422:1:37",
                             "nodeType": "YulLiteral",
-                            "src": "430:1:3",
+                            "src": "1422:1:37",
                             "type": "",
                             "value": "0"
                           },
                           {
-                            "arguments": [
-                              {
-                                "kind": "number",
-                                "nativeSrc": "437:3:3",
-                                "nodeType": "YulLiteral",
-                                "src": "437:3:3",
-                                "type": "",
-                                "value": "224"
-                              },
-                              {
-                                "kind": "number",
-                                "nativeSrc": "442:10:3",
-                                "nodeType": "YulLiteral",
-                                "src": "442:10:3",
-                                "type": "",
-                                "value": "0x4e487b71"
-                              }
-                            ],
-                            "functionName": {
-                              "name": "shl",
-                              "nativeSrc": "433:3:3",
-                              "nodeType": "YulIdentifier",
-                              "src": "433:3:3"
-                            },
-                            "nativeSrc": "433:20:3",
-                            "nodeType": "YulFunctionCall",
-                            "src": "433:20:3"
+                            "kind": "number",
+                            "nativeSrc": "1425:77:37",
+                            "nodeType": "YulLiteral",
+                            "src": "1425:77:37",
+                            "type": "",
+                            "value": "35408467139433450592217433187231851964531694900788300625387963629091585785856"
                           }
                         ],
                         "functionName": {
                           "name": "mstore",
-                          "nativeSrc": "423:6:3",
+                          "nativeSrc": "1415:6:37",
                           "nodeType": "YulIdentifier",
-                          "src": "423:6:3"
+                          "src": "1415:6:37"
                         },
-                        "nativeSrc": "423:31:3",
+                        "nativeSrc": "1415:88:37",
                         "nodeType": "YulFunctionCall",
-                        "src": "423:31:3"
+                        "src": "1415:88:37"
                       },
-                      "nativeSrc": "423:31:3",
+                      "nativeSrc": "1415:88:37",
                       "nodeType": "YulExpressionStatement",
-                      "src": "423:31:3"
+                      "src": "1415:88:37"
                     },
                     {
                       "expression": {
                         "arguments": [
                           {
                             "kind": "number",
-                            "nativeSrc": "470:1:3",
+                            "nativeSrc": "1519:1:37",
                             "nodeType": "YulLiteral",
-                            "src": "470:1:3",
+                            "src": "1519:1:37",
                             "type": "",
                             "value": "4"
                           },
                           {
                             "kind": "number",
-                            "nativeSrc": "473:4:3",
+                            "nativeSrc": "1522:4:37",
                             "nodeType": "YulLiteral",
-                            "src": "473:4:3",
+                            "src": "1522:4:37",
                             "type": "",
                             "value": "0x11"
                           }
                         ],
                         "functionName": {
                           "name": "mstore",
-                          "nativeSrc": "463:6:3",
+                          "nativeSrc": "1512:6:37",
                           "nodeType": "YulIdentifier",
-                          "src": "463:6:3"
+                          "src": "1512:6:37"
                         },
-                        "nativeSrc": "463:15:3",
+                        "nativeSrc": "1512:15:37",
                         "nodeType": "YulFunctionCall",
-                        "src": "463:15:3"
+                        "src": "1512:15:37"
                       },
-                      "nativeSrc": "463:15:3",
+                      "nativeSrc": "1512:15:37",
                       "nodeType": "YulExpressionStatement",
-                      "src": "463:15:3"
+                      "src": "1512:15:37"
                     },
                     {
                       "expression": {
                         "arguments": [
                           {
                             "kind": "number",
-                            "nativeSrc": "494:1:3",
+                            "nativeSrc": "1543:1:37",
                             "nodeType": "YulLiteral",
-                            "src": "494:1:3",
+                            "src": "1543:1:37",
                             "type": "",
                             "value": "0"
                           },
                           {
                             "kind": "number",
-                            "nativeSrc": "497:4:3",
+                            "nativeSrc": "1546:4:37",
                             "nodeType": "YulLiteral",
-                            "src": "497:4:3",
+                            "src": "1546:4:37",
                             "type": "",
                             "value": "0x24"
                           }
                         ],
                         "functionName": {
                           "name": "revert",
-                          "nativeSrc": "487:6:3",
+                          "nativeSrc": "1536:6:37",
                           "nodeType": "YulIdentifier",
-                          "src": "487:6:3"
+                          "src": "1536:6:37"
                         },
-                        "nativeSrc": "487:15:3",
+                        "nativeSrc": "1536:15:37",
                         "nodeType": "YulFunctionCall",
-                        "src": "487:15:3"
+                        "src": "1536:15:37"
                       },
-                      "nativeSrc": "487:15:3",
+                      "nativeSrc": "1536:15:37",
                       "nodeType": "YulExpressionStatement",
-                      "src": "487:15:3"
+                      "src": "1536:15:37"
                     }
                   ]
                 },
                 "name": "panic_error_0x11",
-                "nativeSrc": "381:127:3",
+                "nativeSrc": "1377:180:37",
                 "nodeType": "YulFunctionDefinition",
-                "src": "381:127:3"
+                "src": "1377:180:37"
               },
               {
                 "body": {
-                  "nativeSrc": "560:88:3",
+                  "nativeSrc": "1606:190:37",
                   "nodeType": "YulBlock",
-                  "src": "560:88:3",
+                  "src": "1606:190:37",
                   "statements": [
                     {
+                      "nativeSrc": "1616:33:37",
+                      "nodeType": "YulAssignment",
+                      "src": "1616:33:37",
+                      "value": {
+                        "arguments": [
+                          {
+                            "name": "value",
+                            "nativeSrc": "1643:5:37",
+                            "nodeType": "YulIdentifier",
+                            "src": "1643:5:37"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "cleanup_t_uint256",
+                          "nativeSrc": "1625:17:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "1625:17:37"
+                        },
+                        "nativeSrc": "1625:24:37",
+                        "nodeType": "YulFunctionCall",
+                        "src": "1625:24:37"
+                      },
+                      "variableNames": [
+                        {
+                          "name": "value",
+                          "nativeSrc": "1616:5:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "1616:5:37"
+                        }
+                      ]
+                    },
+                    {
                       "body": {
-                        "nativeSrc": "591:22:3",
+                        "nativeSrc": "1739:22:37",
                         "nodeType": "YulBlock",
-                        "src": "591:22:3",
+                        "src": "1739:22:37",
                         "statements": [
                           {
                             "expression": {
                               "arguments": [],
                               "functionName": {
                                 "name": "panic_error_0x11",
-                                "nativeSrc": "593:16:3",
+                                "nativeSrc": "1741:16:37",
                                 "nodeType": "YulIdentifier",
-                                "src": "593:16:3"
+                                "src": "1741:16:37"
                               },
-                              "nativeSrc": "593:18:3",
+                              "nativeSrc": "1741:18:37",
                               "nodeType": "YulFunctionCall",
-                              "src": "593:18:3"
+                              "src": "1741:18:37"
                             },
-                            "nativeSrc": "593:18:3",
+                            "nativeSrc": "1741:18:37",
                             "nodeType": "YulExpressionStatement",
-                            "src": "593:18:3"
+                            "src": "1741:18:37"
                           }
                         ]
                       },
@@ -586,154 +1218,402 @@ export declare const Artifact_Counter: {
                         "arguments": [
                           {
                             "name": "value",
-                            "nativeSrc": "576:5:3",
+                            "nativeSrc": "1664:5:37",
                             "nodeType": "YulIdentifier",
-                            "src": "576:5:3"
+                            "src": "1664:5:37"
                           },
                           {
-                            "arguments": [
-                              {
-                                "kind": "number",
-                                "nativeSrc": "587:1:3",
-                                "nodeType": "YulLiteral",
-                                "src": "587:1:3",
-                                "type": "",
-                                "value": "0"
-                              }
-                            ],
-                            "functionName": {
-                              "name": "not",
-                              "nativeSrc": "583:3:3",
-                              "nodeType": "YulIdentifier",
-                              "src": "583:3:3"
-                            },
-                            "nativeSrc": "583:6:3",
-                            "nodeType": "YulFunctionCall",
-                            "src": "583:6:3"
+                            "kind": "number",
+                            "nativeSrc": "1671:66:37",
+                            "nodeType": "YulLiteral",
+                            "src": "1671:66:37",
+                            "type": "",
+                            "value": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
                           }
                         ],
                         "functionName": {
                           "name": "eq",
-                          "nativeSrc": "573:2:3",
+                          "nativeSrc": "1661:2:37",
                           "nodeType": "YulIdentifier",
-                          "src": "573:2:3"
+                          "src": "1661:2:37"
                         },
-                        "nativeSrc": "573:17:3",
+                        "nativeSrc": "1661:77:37",
                         "nodeType": "YulFunctionCall",
-                        "src": "573:17:3"
+                        "src": "1661:77:37"
                       },
-                      "nativeSrc": "570:43:3",
+                      "nativeSrc": "1658:103:37",
                       "nodeType": "YulIf",
-                      "src": "570:43:3"
+                      "src": "1658:103:37"
                     },
                     {
-                      "nativeSrc": "622:20:3",
+                      "nativeSrc": "1770:20:37",
                       "nodeType": "YulAssignment",
-                      "src": "622:20:3",
+                      "src": "1770:20:37",
                       "value": {
                         "arguments": [
                           {
                             "name": "value",
-                            "nativeSrc": "633:5:3",
+                            "nativeSrc": "1781:5:37",
                             "nodeType": "YulIdentifier",
-                            "src": "633:5:3"
+                            "src": "1781:5:37"
                           },
                           {
                             "kind": "number",
-                            "nativeSrc": "640:1:3",
+                            "nativeSrc": "1788:1:37",
                             "nodeType": "YulLiteral",
-                            "src": "640:1:3",
+                            "src": "1788:1:37",
                             "type": "",
                             "value": "1"
                           }
                         ],
                         "functionName": {
                           "name": "add",
-                          "nativeSrc": "629:3:3",
+                          "nativeSrc": "1777:3:37",
                           "nodeType": "YulIdentifier",
-                          "src": "629:3:3"
+                          "src": "1777:3:37"
                         },
-                        "nativeSrc": "629:13:3",
+                        "nativeSrc": "1777:13:37",
                         "nodeType": "YulFunctionCall",
-                        "src": "629:13:3"
+                        "src": "1777:13:37"
                       },
                       "variableNames": [
                         {
                           "name": "ret",
-                          "nativeSrc": "622:3:3",
+                          "nativeSrc": "1770:3:37",
                           "nodeType": "YulIdentifier",
-                          "src": "622:3:3"
+                          "src": "1770:3:37"
                         }
                       ]
                     }
                   ]
                 },
                 "name": "increment_t_uint256",
-                "nativeSrc": "513:135:3",
+                "nativeSrc": "1563:233:37",
                 "nodeType": "YulFunctionDefinition",
                 "parameters": [
                   {
                     "name": "value",
-                    "nativeSrc": "542:5:3",
+                    "nativeSrc": "1592:5:37",
                     "nodeType": "YulTypedName",
-                    "src": "542:5:3",
+                    "src": "1592:5:37",
                     "type": ""
                   }
                 ],
                 "returnVariables": [
                   {
                     "name": "ret",
-                    "nativeSrc": "552:3:3",
+                    "nativeSrc": "1602:3:37",
                     "nodeType": "YulTypedName",
-                    "src": "552:3:3",
+                    "src": "1602:3:37",
                     "type": ""
                   }
                 ],
-                "src": "513:135:3"
+                "src": "1563:233:37"
               },
               {
                 "body": {
-                  "nativeSrc": "762:76:3",
+                  "nativeSrc": "1855:32:37",
                   "nodeType": "YulBlock",
-                  "src": "762:76:3",
+                  "src": "1855:32:37",
                   "statements": [
                     {
-                      "nativeSrc": "772:26:3",
+                      "nativeSrc": "1865:16:37",
                       "nodeType": "YulAssignment",
-                      "src": "772:26:3",
+                      "src": "1865:16:37",
+                      "value": {
+                        "name": "value",
+                        "nativeSrc": "1876:5:37",
+                        "nodeType": "YulIdentifier",
+                        "src": "1876:5:37"
+                      },
+                      "variableNames": [
+                        {
+                          "name": "cleaned",
+                          "nativeSrc": "1865:7:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "1865:7:37"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "cleanup_t_rational_1_by_1",
+                "nativeSrc": "1802:85:37",
+                "nodeType": "YulFunctionDefinition",
+                "parameters": [
+                  {
+                    "name": "value",
+                    "nativeSrc": "1837:5:37",
+                    "nodeType": "YulTypedName",
+                    "src": "1837:5:37",
+                    "type": ""
+                  }
+                ],
+                "returnVariables": [
+                  {
+                    "name": "cleaned",
+                    "nativeSrc": "1847:7:37",
+                    "nodeType": "YulTypedName",
+                    "src": "1847:7:37",
+                    "type": ""
+                  }
+                ],
+                "src": "1802:85:37"
+              },
+              {
+                "body": {
+                  "nativeSrc": "1925:28:37",
+                  "nodeType": "YulBlock",
+                  "src": "1925:28:37",
+                  "statements": [
+                    {
+                      "nativeSrc": "1935:12:37",
+                      "nodeType": "YulAssignment",
+                      "src": "1935:12:37",
+                      "value": {
+                        "name": "value",
+                        "nativeSrc": "1942:5:37",
+                        "nodeType": "YulIdentifier",
+                        "src": "1942:5:37"
+                      },
+                      "variableNames": [
+                        {
+                          "name": "ret",
+                          "nativeSrc": "1935:3:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "1935:3:37"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "identity",
+                "nativeSrc": "1893:60:37",
+                "nodeType": "YulFunctionDefinition",
+                "parameters": [
+                  {
+                    "name": "value",
+                    "nativeSrc": "1911:5:37",
+                    "nodeType": "YulTypedName",
+                    "src": "1911:5:37",
+                    "type": ""
+                  }
+                ],
+                "returnVariables": [
+                  {
+                    "name": "ret",
+                    "nativeSrc": "1921:3:37",
+                    "nodeType": "YulTypedName",
+                    "src": "1921:3:37",
+                    "type": ""
+                  }
+                ],
+                "src": "1893:60:37"
+              },
+              {
+                "body": {
+                  "nativeSrc": "2027:90:37",
+                  "nodeType": "YulBlock",
+                  "src": "2027:90:37",
+                  "statements": [
+                    {
+                      "nativeSrc": "2037:74:37",
+                      "nodeType": "YulAssignment",
+                      "src": "2037:74:37",
+                      "value": {
+                        "arguments": [
+                          {
+                            "arguments": [
+                              {
+                                "arguments": [
+                                  {
+                                    "name": "value",
+                                    "nativeSrc": "2103:5:37",
+                                    "nodeType": "YulIdentifier",
+                                    "src": "2103:5:37"
+                                  }
+                                ],
+                                "functionName": {
+                                  "name": "cleanup_t_rational_1_by_1",
+                                  "nativeSrc": "2077:25:37",
+                                  "nodeType": "YulIdentifier",
+                                  "src": "2077:25:37"
+                                },
+                                "nativeSrc": "2077:32:37",
+                                "nodeType": "YulFunctionCall",
+                                "src": "2077:32:37"
+                              }
+                            ],
+                            "functionName": {
+                              "name": "identity",
+                              "nativeSrc": "2068:8:37",
+                              "nodeType": "YulIdentifier",
+                              "src": "2068:8:37"
+                            },
+                            "nativeSrc": "2068:42:37",
+                            "nodeType": "YulFunctionCall",
+                            "src": "2068:42:37"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "cleanup_t_uint256",
+                          "nativeSrc": "2050:17:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "2050:17:37"
+                        },
+                        "nativeSrc": "2050:61:37",
+                        "nodeType": "YulFunctionCall",
+                        "src": "2050:61:37"
+                      },
+                      "variableNames": [
+                        {
+                          "name": "converted",
+                          "nativeSrc": "2037:9:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "2037:9:37"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "convert_t_rational_1_by_1_to_t_uint256",
+                "nativeSrc": "1959:158:37",
+                "nodeType": "YulFunctionDefinition",
+                "parameters": [
+                  {
+                    "name": "value",
+                    "nativeSrc": "2007:5:37",
+                    "nodeType": "YulTypedName",
+                    "src": "2007:5:37",
+                    "type": ""
+                  }
+                ],
+                "returnVariables": [
+                  {
+                    "name": "converted",
+                    "nativeSrc": "2017:9:37",
+                    "nodeType": "YulTypedName",
+                    "src": "2017:9:37",
+                    "type": ""
+                  }
+                ],
+                "src": "1959:158:37"
+              },
+              {
+                "body": {
+                  "nativeSrc": "2196:74:37",
+                  "nodeType": "YulBlock",
+                  "src": "2196:74:37",
+                  "statements": [
+                    {
+                      "expression": {
+                        "arguments": [
+                          {
+                            "name": "pos",
+                            "nativeSrc": "2213:3:37",
+                            "nodeType": "YulIdentifier",
+                            "src": "2213:3:37"
+                          },
+                          {
+                            "arguments": [
+                              {
+                                "name": "value",
+                                "nativeSrc": "2257:5:37",
+                                "nodeType": "YulIdentifier",
+                                "src": "2257:5:37"
+                              }
+                            ],
+                            "functionName": {
+                              "name": "convert_t_rational_1_by_1_to_t_uint256",
+                              "nativeSrc": "2218:38:37",
+                              "nodeType": "YulIdentifier",
+                              "src": "2218:38:37"
+                            },
+                            "nativeSrc": "2218:45:37",
+                            "nodeType": "YulFunctionCall",
+                            "src": "2218:45:37"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "mstore",
+                          "nativeSrc": "2206:6:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "2206:6:37"
+                        },
+                        "nativeSrc": "2206:58:37",
+                        "nodeType": "YulFunctionCall",
+                        "src": "2206:58:37"
+                      },
+                      "nativeSrc": "2206:58:37",
+                      "nodeType": "YulExpressionStatement",
+                      "src": "2206:58:37"
+                    }
+                  ]
+                },
+                "name": "abi_encode_t_rational_1_by_1_to_t_uint256_fromStack",
+                "nativeSrc": "2123:147:37",
+                "nodeType": "YulFunctionDefinition",
+                "parameters": [
+                  {
+                    "name": "value",
+                    "nativeSrc": "2184:5:37",
+                    "nodeType": "YulTypedName",
+                    "src": "2184:5:37",
+                    "type": ""
+                  },
+                  {
+                    "name": "pos",
+                    "nativeSrc": "2191:3:37",
+                    "nodeType": "YulTypedName",
+                    "src": "2191:3:37",
+                    "type": ""
+                  }
+                ],
+                "src": "2123:147:37"
+              },
+              {
+                "body": {
+                  "nativeSrc": "2382:132:37",
+                  "nodeType": "YulBlock",
+                  "src": "2382:132:37",
+                  "statements": [
+                    {
+                      "nativeSrc": "2392:26:37",
+                      "nodeType": "YulAssignment",
+                      "src": "2392:26:37",
                       "value": {
                         "arguments": [
                           {
                             "name": "headStart",
-                            "nativeSrc": "784:9:3",
+                            "nativeSrc": "2404:9:37",
                             "nodeType": "YulIdentifier",
-                            "src": "784:9:3"
+                            "src": "2404:9:37"
                           },
                           {
                             "kind": "number",
-                            "nativeSrc": "795:2:3",
+                            "nativeSrc": "2415:2:37",
                             "nodeType": "YulLiteral",
-                            "src": "795:2:3",
+                            "src": "2415:2:37",
                             "type": "",
                             "value": "32"
                           }
                         ],
                         "functionName": {
                           "name": "add",
-                          "nativeSrc": "780:3:3",
+                          "nativeSrc": "2400:3:37",
                           "nodeType": "YulIdentifier",
-                          "src": "780:3:3"
+                          "src": "2400:3:37"
                         },
-                        "nativeSrc": "780:18:3",
+                        "nativeSrc": "2400:18:37",
                         "nodeType": "YulFunctionCall",
-                        "src": "780:18:3"
+                        "src": "2400:18:37"
                       },
                       "variableNames": [
                         {
                           "name": "tail",
-                          "nativeSrc": "772:4:3",
+                          "nativeSrc": "2392:4:37",
                           "nodeType": "YulIdentifier",
-                          "src": "772:4:3"
+                          "src": "2392:4:37"
                         }
                       ]
                     },
@@ -741,208 +1621,503 @@ export declare const Artifact_Counter: {
                       "expression": {
                         "arguments": [
                           {
-                            "name": "headStart",
-                            "nativeSrc": "814:9:3",
+                            "name": "value0",
+                            "nativeSrc": "2480:6:37",
                             "nodeType": "YulIdentifier",
-                            "src": "814:9:3"
+                            "src": "2480:6:37"
                           },
                           {
-                            "name": "value0",
-                            "nativeSrc": "825:6:3",
-                            "nodeType": "YulIdentifier",
-                            "src": "825:6:3"
+                            "arguments": [
+                              {
+                                "name": "headStart",
+                                "nativeSrc": "2493:9:37",
+                                "nodeType": "YulIdentifier",
+                                "src": "2493:9:37"
+                              },
+                              {
+                                "kind": "number",
+                                "nativeSrc": "2504:1:37",
+                                "nodeType": "YulLiteral",
+                                "src": "2504:1:37",
+                                "type": "",
+                                "value": "0"
+                              }
+                            ],
+                            "functionName": {
+                              "name": "add",
+                              "nativeSrc": "2489:3:37",
+                              "nodeType": "YulIdentifier",
+                              "src": "2489:3:37"
+                            },
+                            "nativeSrc": "2489:17:37",
+                            "nodeType": "YulFunctionCall",
+                            "src": "2489:17:37"
                           }
                         ],
                         "functionName": {
-                          "name": "mstore",
-                          "nativeSrc": "807:6:3",
+                          "name": "abi_encode_t_rational_1_by_1_to_t_uint256_fromStack",
+                          "nativeSrc": "2428:51:37",
                           "nodeType": "YulIdentifier",
-                          "src": "807:6:3"
+                          "src": "2428:51:37"
                         },
-                        "nativeSrc": "807:25:3",
+                        "nativeSrc": "2428:79:37",
                         "nodeType": "YulFunctionCall",
-                        "src": "807:25:3"
+                        "src": "2428:79:37"
                       },
-                      "nativeSrc": "807:25:3",
+                      "nativeSrc": "2428:79:37",
                       "nodeType": "YulExpressionStatement",
-                      "src": "807:25:3"
+                      "src": "2428:79:37"
                     }
                   ]
                 },
                 "name": "abi_encode_tuple_t_rational_1_by_1__to_t_uint256__fromStack_reversed",
-                "nativeSrc": "653:185:3",
+                "nativeSrc": "2276:238:37",
                 "nodeType": "YulFunctionDefinition",
                 "parameters": [
                   {
                     "name": "headStart",
-                    "nativeSrc": "731:9:3",
+                    "nativeSrc": "2354:9:37",
                     "nodeType": "YulTypedName",
-                    "src": "731:9:3",
+                    "src": "2354:9:37",
                     "type": ""
                   },
                   {
                     "name": "value0",
-                    "nativeSrc": "742:6:3",
+                    "nativeSrc": "2366:6:37",
                     "nodeType": "YulTypedName",
-                    "src": "742:6:3",
+                    "src": "2366:6:37",
                     "type": ""
                   }
                 ],
                 "returnVariables": [
                   {
                     "name": "tail",
-                    "nativeSrc": "753:4:3",
+                    "nativeSrc": "2377:4:37",
                     "nodeType": "YulTypedName",
-                    "src": "753:4:3",
+                    "src": "2377:4:37",
                     "type": ""
                   }
                 ],
-                "src": "653:185:3"
+                "src": "2276:238:37"
               },
               {
                 "body": {
-                  "nativeSrc": "1017:225:3",
+                  "nativeSrc": "2616:73:37",
                   "nodeType": "YulBlock",
-                  "src": "1017:225:3",
+                  "src": "2616:73:37",
                   "statements": [
                     {
                       "expression": {
                         "arguments": [
                           {
-                            "name": "headStart",
-                            "nativeSrc": "1034:9:3",
+                            "name": "pos",
+                            "nativeSrc": "2633:3:37",
                             "nodeType": "YulIdentifier",
-                            "src": "1034:9:3"
+                            "src": "2633:3:37"
                           },
                           {
-                            "kind": "number",
-                            "nativeSrc": "1045:2:3",
-                            "nodeType": "YulLiteral",
-                            "src": "1045:2:3",
-                            "type": "",
-                            "value": "32"
+                            "name": "length",
+                            "nativeSrc": "2638:6:37",
+                            "nodeType": "YulIdentifier",
+                            "src": "2638:6:37"
                           }
                         ],
                         "functionName": {
                           "name": "mstore",
-                          "nativeSrc": "1027:6:3",
+                          "nativeSrc": "2626:6:37",
                           "nodeType": "YulIdentifier",
-                          "src": "1027:6:3"
+                          "src": "2626:6:37"
                         },
-                        "nativeSrc": "1027:21:3",
+                        "nativeSrc": "2626:19:37",
                         "nodeType": "YulFunctionCall",
-                        "src": "1027:21:3"
+                        "src": "2626:19:37"
                       },
-                      "nativeSrc": "1027:21:3",
+                      "nativeSrc": "2626:19:37",
                       "nodeType": "YulExpressionStatement",
-                      "src": "1027:21:3"
+                      "src": "2626:19:37"
                     },
+                    {
+                      "nativeSrc": "2654:29:37",
+                      "nodeType": "YulAssignment",
+                      "src": "2654:29:37",
+                      "value": {
+                        "arguments": [
+                          {
+                            "name": "pos",
+                            "nativeSrc": "2673:3:37",
+                            "nodeType": "YulIdentifier",
+                            "src": "2673:3:37"
+                          },
+                          {
+                            "kind": "number",
+                            "nativeSrc": "2678:4:37",
+                            "nodeType": "YulLiteral",
+                            "src": "2678:4:37",
+                            "type": "",
+                            "value": "0x20"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "add",
+                          "nativeSrc": "2669:3:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "2669:3:37"
+                        },
+                        "nativeSrc": "2669:14:37",
+                        "nodeType": "YulFunctionCall",
+                        "src": "2669:14:37"
+                      },
+                      "variableNames": [
+                        {
+                          "name": "updated_pos",
+                          "nativeSrc": "2654:11:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "2654:11:37"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "array_storeLengthForEncoding_t_string_memory_ptr_fromStack",
+                "nativeSrc": "2520:169:37",
+                "nodeType": "YulFunctionDefinition",
+                "parameters": [
+                  {
+                    "name": "pos",
+                    "nativeSrc": "2588:3:37",
+                    "nodeType": "YulTypedName",
+                    "src": "2588:3:37",
+                    "type": ""
+                  },
+                  {
+                    "name": "length",
+                    "nativeSrc": "2593:6:37",
+                    "nodeType": "YulTypedName",
+                    "src": "2593:6:37",
+                    "type": ""
+                  }
+                ],
+                "returnVariables": [
+                  {
+                    "name": "updated_pos",
+                    "nativeSrc": "2604:11:37",
+                    "nodeType": "YulTypedName",
+                    "src": "2604:11:37",
+                    "type": ""
+                  }
+                ],
+                "src": "2520:169:37"
+              },
+              {
+                "body": {
+                  "nativeSrc": "2801:116:37",
+                  "nodeType": "YulBlock",
+                  "src": "2801:116:37",
+                  "statements": [
                     {
                       "expression": {
                         "arguments": [
                           {
                             "arguments": [
                               {
-                                "name": "headStart",
-                                "nativeSrc": "1068:9:3",
+                                "name": "memPtr",
+                                "nativeSrc": "2823:6:37",
                                 "nodeType": "YulIdentifier",
-                                "src": "1068:9:3"
+                                "src": "2823:6:37"
                               },
                               {
                                 "kind": "number",
-                                "nativeSrc": "1079:2:3",
+                                "nativeSrc": "2831:1:37",
                                 "nodeType": "YulLiteral",
-                                "src": "1079:2:3",
+                                "src": "2831:1:37",
                                 "type": "",
-                                "value": "32"
+                                "value": "0"
                               }
                             ],
                             "functionName": {
                               "name": "add",
-                              "nativeSrc": "1064:3:3",
+                              "nativeSrc": "2819:3:37",
                               "nodeType": "YulIdentifier",
-                              "src": "1064:3:3"
+                              "src": "2819:3:37"
                             },
-                            "nativeSrc": "1064:18:3",
+                            "nativeSrc": "2819:14:37",
                             "nodeType": "YulFunctionCall",
-                            "src": "1064:18:3"
-                          },
-                          {
-                            "kind": "number",
-                            "nativeSrc": "1084:2:3",
-                            "nodeType": "YulLiteral",
-                            "src": "1084:2:3",
-                            "type": "",
-                            "value": "35"
-                          }
-                        ],
-                        "functionName": {
-                          "name": "mstore",
-                          "nativeSrc": "1057:6:3",
-                          "nodeType": "YulIdentifier",
-                          "src": "1057:6:3"
-                        },
-                        "nativeSrc": "1057:30:3",
-                        "nodeType": "YulFunctionCall",
-                        "src": "1057:30:3"
-                      },
-                      "nativeSrc": "1057:30:3",
-                      "nodeType": "YulExpressionStatement",
-                      "src": "1057:30:3"
-                    },
-                    {
-                      "expression": {
-                        "arguments": [
-                          {
-                            "arguments": [
-                              {
-                                "name": "headStart",
-                                "nativeSrc": "1107:9:3",
-                                "nodeType": "YulIdentifier",
-                                "src": "1107:9:3"
-                              },
-                              {
-                                "kind": "number",
-                                "nativeSrc": "1118:2:3",
-                                "nodeType": "YulLiteral",
-                                "src": "1118:2:3",
-                                "type": "",
-                                "value": "64"
-                              }
-                            ],
-                            "functionName": {
-                              "name": "add",
-                              "nativeSrc": "1103:3:3",
-                              "nodeType": "YulIdentifier",
-                              "src": "1103:3:3"
-                            },
-                            "nativeSrc": "1103:18:3",
-                            "nodeType": "YulFunctionCall",
-                            "src": "1103:18:3"
+                            "src": "2819:14:37"
                           },
                           {
                             "hexValue": "696e6342793a20696e6372656d656e742073686f756c6420626520706f736974",
                             "kind": "string",
-                            "nativeSrc": "1123:34:3",
+                            "nativeSrc": "2835:34:37",
                             "nodeType": "YulLiteral",
-                            "src": "1123:34:3",
+                            "src": "2835:34:37",
                             "type": "",
                             "value": "incBy: increment should be posit"
                           }
                         ],
                         "functionName": {
                           "name": "mstore",
-                          "nativeSrc": "1096:6:3",
+                          "nativeSrc": "2812:6:37",
                           "nodeType": "YulIdentifier",
-                          "src": "1096:6:3"
+                          "src": "2812:6:37"
                         },
-                        "nativeSrc": "1096:62:3",
+                        "nativeSrc": "2812:58:37",
                         "nodeType": "YulFunctionCall",
-                        "src": "1096:62:3"
+                        "src": "2812:58:37"
                       },
-                      "nativeSrc": "1096:62:3",
+                      "nativeSrc": "2812:58:37",
                       "nodeType": "YulExpressionStatement",
-                      "src": "1096:62:3"
+                      "src": "2812:58:37"
+                    },
+                    {
+                      "expression": {
+                        "arguments": [
+                          {
+                            "arguments": [
+                              {
+                                "name": "memPtr",
+                                "nativeSrc": "2891:6:37",
+                                "nodeType": "YulIdentifier",
+                                "src": "2891:6:37"
+                              },
+                              {
+                                "kind": "number",
+                                "nativeSrc": "2899:2:37",
+                                "nodeType": "YulLiteral",
+                                "src": "2899:2:37",
+                                "type": "",
+                                "value": "32"
+                              }
+                            ],
+                            "functionName": {
+                              "name": "add",
+                              "nativeSrc": "2887:3:37",
+                              "nodeType": "YulIdentifier",
+                              "src": "2887:3:37"
+                            },
+                            "nativeSrc": "2887:15:37",
+                            "nodeType": "YulFunctionCall",
+                            "src": "2887:15:37"
+                          },
+                          {
+                            "hexValue": "697665",
+                            "kind": "string",
+                            "nativeSrc": "2904:5:37",
+                            "nodeType": "YulLiteral",
+                            "src": "2904:5:37",
+                            "type": "",
+                            "value": "ive"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "mstore",
+                          "nativeSrc": "2880:6:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "2880:6:37"
+                        },
+                        "nativeSrc": "2880:30:37",
+                        "nodeType": "YulFunctionCall",
+                        "src": "2880:30:37"
+                      },
+                      "nativeSrc": "2880:30:37",
+                      "nodeType": "YulExpressionStatement",
+                      "src": "2880:30:37"
+                    }
+                  ]
+                },
+                "name": "store_literal_in_memory_fad4697d3fcdb4442d762ccd36772e2a032f18c62f2361e273fa5186a96318ba",
+                "nativeSrc": "2695:222:37",
+                "nodeType": "YulFunctionDefinition",
+                "parameters": [
+                  {
+                    "name": "memPtr",
+                    "nativeSrc": "2793:6:37",
+                    "nodeType": "YulTypedName",
+                    "src": "2793:6:37",
+                    "type": ""
+                  }
+                ],
+                "src": "2695:222:37"
+              },
+              {
+                "body": {
+                  "nativeSrc": "3069:220:37",
+                  "nodeType": "YulBlock",
+                  "src": "3069:220:37",
+                  "statements": [
+                    {
+                      "nativeSrc": "3079:74:37",
+                      "nodeType": "YulAssignment",
+                      "src": "3079:74:37",
+                      "value": {
+                        "arguments": [
+                          {
+                            "name": "pos",
+                            "nativeSrc": "3145:3:37",
+                            "nodeType": "YulIdentifier",
+                            "src": "3145:3:37"
+                          },
+                          {
+                            "kind": "number",
+                            "nativeSrc": "3150:2:37",
+                            "nodeType": "YulLiteral",
+                            "src": "3150:2:37",
+                            "type": "",
+                            "value": "35"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "array_storeLengthForEncoding_t_string_memory_ptr_fromStack",
+                          "nativeSrc": "3086:58:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "3086:58:37"
+                        },
+                        "nativeSrc": "3086:67:37",
+                        "nodeType": "YulFunctionCall",
+                        "src": "3086:67:37"
+                      },
+                      "variableNames": [
+                        {
+                          "name": "pos",
+                          "nativeSrc": "3079:3:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "3079:3:37"
+                        }
+                      ]
+                    },
+                    {
+                      "expression": {
+                        "arguments": [
+                          {
+                            "name": "pos",
+                            "nativeSrc": "3251:3:37",
+                            "nodeType": "YulIdentifier",
+                            "src": "3251:3:37"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "store_literal_in_memory_fad4697d3fcdb4442d762ccd36772e2a032f18c62f2361e273fa5186a96318ba",
+                          "nativeSrc": "3162:88:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "3162:88:37"
+                        },
+                        "nativeSrc": "3162:93:37",
+                        "nodeType": "YulFunctionCall",
+                        "src": "3162:93:37"
+                      },
+                      "nativeSrc": "3162:93:37",
+                      "nodeType": "YulExpressionStatement",
+                      "src": "3162:93:37"
+                    },
+                    {
+                      "nativeSrc": "3264:19:37",
+                      "nodeType": "YulAssignment",
+                      "src": "3264:19:37",
+                      "value": {
+                        "arguments": [
+                          {
+                            "name": "pos",
+                            "nativeSrc": "3275:3:37",
+                            "nodeType": "YulIdentifier",
+                            "src": "3275:3:37"
+                          },
+                          {
+                            "kind": "number",
+                            "nativeSrc": "3280:2:37",
+                            "nodeType": "YulLiteral",
+                            "src": "3280:2:37",
+                            "type": "",
+                            "value": "64"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "add",
+                          "nativeSrc": "3271:3:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "3271:3:37"
+                        },
+                        "nativeSrc": "3271:12:37",
+                        "nodeType": "YulFunctionCall",
+                        "src": "3271:12:37"
+                      },
+                      "variableNames": [
+                        {
+                          "name": "end",
+                          "nativeSrc": "3264:3:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "3264:3:37"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "name": "abi_encode_t_stringliteral_fad4697d3fcdb4442d762ccd36772e2a032f18c62f2361e273fa5186a96318ba_to_t_string_memory_ptr_fromStack",
+                "nativeSrc": "2923:366:37",
+                "nodeType": "YulFunctionDefinition",
+                "parameters": [
+                  {
+                    "name": "pos",
+                    "nativeSrc": "3057:3:37",
+                    "nodeType": "YulTypedName",
+                    "src": "3057:3:37",
+                    "type": ""
+                  }
+                ],
+                "returnVariables": [
+                  {
+                    "name": "end",
+                    "nativeSrc": "3065:3:37",
+                    "nodeType": "YulTypedName",
+                    "src": "3065:3:37",
+                    "type": ""
+                  }
+                ],
+                "src": "2923:366:37"
+              },
+              {
+                "body": {
+                  "nativeSrc": "3466:248:37",
+                  "nodeType": "YulBlock",
+                  "src": "3466:248:37",
+                  "statements": [
+                    {
+                      "nativeSrc": "3476:26:37",
+                      "nodeType": "YulAssignment",
+                      "src": "3476:26:37",
+                      "value": {
+                        "arguments": [
+                          {
+                            "name": "headStart",
+                            "nativeSrc": "3488:9:37",
+                            "nodeType": "YulIdentifier",
+                            "src": "3488:9:37"
+                          },
+                          {
+                            "kind": "number",
+                            "nativeSrc": "3499:2:37",
+                            "nodeType": "YulLiteral",
+                            "src": "3499:2:37",
+                            "type": "",
+                            "value": "32"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "add",
+                          "nativeSrc": "3484:3:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "3484:3:37"
+                        },
+                        "nativeSrc": "3484:18:37",
+                        "nodeType": "YulFunctionCall",
+                        "src": "3484:18:37"
+                      },
+                      "variableNames": [
+                        {
+                          "name": "tail",
+                          "nativeSrc": "3476:4:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "3476:4:37"
+                        }
+                      ]
                     },
                     {
                       "expression": {
@@ -951,184 +2126,256 @@ export declare const Artifact_Counter: {
                             "arguments": [
                               {
                                 "name": "headStart",
-                                "nativeSrc": "1178:9:3",
+                                "nativeSrc": "3523:9:37",
                                 "nodeType": "YulIdentifier",
-                                "src": "1178:9:3"
+                                "src": "3523:9:37"
                               },
                               {
                                 "kind": "number",
-                                "nativeSrc": "1189:2:3",
+                                "nativeSrc": "3534:1:37",
                                 "nodeType": "YulLiteral",
-                                "src": "1189:2:3",
+                                "src": "3534:1:37",
                                 "type": "",
-                                "value": "96"
+                                "value": "0"
                               }
                             ],
                             "functionName": {
                               "name": "add",
-                              "nativeSrc": "1174:3:3",
+                              "nativeSrc": "3519:3:37",
                               "nodeType": "YulIdentifier",
-                              "src": "1174:3:3"
+                              "src": "3519:3:37"
                             },
-                            "nativeSrc": "1174:18:3",
+                            "nativeSrc": "3519:17:37",
                             "nodeType": "YulFunctionCall",
-                            "src": "1174:18:3"
+                            "src": "3519:17:37"
                           },
                           {
-                            "hexValue": "697665",
-                            "kind": "string",
-                            "nativeSrc": "1194:5:3",
-                            "nodeType": "YulLiteral",
-                            "src": "1194:5:3",
-                            "type": "",
-                            "value": "ive"
+                            "arguments": [
+                              {
+                                "name": "tail",
+                                "nativeSrc": "3542:4:37",
+                                "nodeType": "YulIdentifier",
+                                "src": "3542:4:37"
+                              },
+                              {
+                                "name": "headStart",
+                                "nativeSrc": "3548:9:37",
+                                "nodeType": "YulIdentifier",
+                                "src": "3548:9:37"
+                              }
+                            ],
+                            "functionName": {
+                              "name": "sub",
+                              "nativeSrc": "3538:3:37",
+                              "nodeType": "YulIdentifier",
+                              "src": "3538:3:37"
+                            },
+                            "nativeSrc": "3538:20:37",
+                            "nodeType": "YulFunctionCall",
+                            "src": "3538:20:37"
                           }
                         ],
                         "functionName": {
                           "name": "mstore",
-                          "nativeSrc": "1167:6:3",
+                          "nativeSrc": "3512:6:37",
                           "nodeType": "YulIdentifier",
-                          "src": "1167:6:3"
+                          "src": "3512:6:37"
                         },
-                        "nativeSrc": "1167:33:3",
+                        "nativeSrc": "3512:47:37",
                         "nodeType": "YulFunctionCall",
-                        "src": "1167:33:3"
+                        "src": "3512:47:37"
                       },
-                      "nativeSrc": "1167:33:3",
+                      "nativeSrc": "3512:47:37",
                       "nodeType": "YulExpressionStatement",
-                      "src": "1167:33:3"
+                      "src": "3512:47:37"
                     },
                     {
-                      "nativeSrc": "1209:27:3",
+                      "nativeSrc": "3568:139:37",
                       "nodeType": "YulAssignment",
-                      "src": "1209:27:3",
+                      "src": "3568:139:37",
                       "value": {
                         "arguments": [
                           {
-                            "name": "headStart",
-                            "nativeSrc": "1221:9:3",
+                            "name": "tail",
+                            "nativeSrc": "3702:4:37",
                             "nodeType": "YulIdentifier",
-                            "src": "1221:9:3"
-                          },
-                          {
-                            "kind": "number",
-                            "nativeSrc": "1232:3:3",
-                            "nodeType": "YulLiteral",
-                            "src": "1232:3:3",
-                            "type": "",
-                            "value": "128"
+                            "src": "3702:4:37"
                           }
                         ],
                         "functionName": {
-                          "name": "add",
-                          "nativeSrc": "1217:3:3",
+                          "name": "abi_encode_t_stringliteral_fad4697d3fcdb4442d762ccd36772e2a032f18c62f2361e273fa5186a96318ba_to_t_string_memory_ptr_fromStack",
+                          "nativeSrc": "3576:124:37",
                           "nodeType": "YulIdentifier",
-                          "src": "1217:3:3"
+                          "src": "3576:124:37"
                         },
-                        "nativeSrc": "1217:19:3",
+                        "nativeSrc": "3576:131:37",
                         "nodeType": "YulFunctionCall",
-                        "src": "1217:19:3"
+                        "src": "3576:131:37"
                       },
                       "variableNames": [
                         {
                           "name": "tail",
-                          "nativeSrc": "1209:4:3",
+                          "nativeSrc": "3568:4:37",
                           "nodeType": "YulIdentifier",
-                          "src": "1209:4:3"
+                          "src": "3568:4:37"
                         }
                       ]
                     }
                   ]
                 },
                 "name": "abi_encode_tuple_t_stringliteral_fad4697d3fcdb4442d762ccd36772e2a032f18c62f2361e273fa5186a96318ba__to_t_string_memory_ptr__fromStack_reversed",
-                "nativeSrc": "843:399:3",
+                "nativeSrc": "3295:419:37",
                 "nodeType": "YulFunctionDefinition",
                 "parameters": [
                   {
                     "name": "headStart",
-                    "nativeSrc": "994:9:3",
+                    "nativeSrc": "3446:9:37",
                     "nodeType": "YulTypedName",
-                    "src": "994:9:3",
+                    "src": "3446:9:37",
                     "type": ""
                   }
                 ],
                 "returnVariables": [
                   {
                     "name": "tail",
-                    "nativeSrc": "1008:4:3",
+                    "nativeSrc": "3461:4:37",
                     "nodeType": "YulTypedName",
-                    "src": "1008:4:3",
+                    "src": "3461:4:37",
                     "type": ""
                   }
                 ],
-                "src": "843:399:3"
+                "src": "3295:419:37"
               },
               {
                 "body": {
-                  "nativeSrc": "1295:77:3",
+                  "nativeSrc": "3764:147:37",
                   "nodeType": "YulBlock",
-                  "src": "1295:77:3",
+                  "src": "3764:147:37",
                   "statements": [
                     {
-                      "nativeSrc": "1305:16:3",
+                      "nativeSrc": "3774:25:37",
                       "nodeType": "YulAssignment",
-                      "src": "1305:16:3",
+                      "src": "3774:25:37",
                       "value": {
                         "arguments": [
                           {
                             "name": "x",
-                            "nativeSrc": "1316:1:3",
+                            "nativeSrc": "3797:1:37",
                             "nodeType": "YulIdentifier",
-                            "src": "1316:1:3"
+                            "src": "3797:1:37"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "cleanup_t_uint256",
+                          "nativeSrc": "3779:17:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "3779:17:37"
+                        },
+                        "nativeSrc": "3779:20:37",
+                        "nodeType": "YulFunctionCall",
+                        "src": "3779:20:37"
+                      },
+                      "variableNames": [
+                        {
+                          "name": "x",
+                          "nativeSrc": "3774:1:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "3774:1:37"
+                        }
+                      ]
+                    },
+                    {
+                      "nativeSrc": "3808:25:37",
+                      "nodeType": "YulAssignment",
+                      "src": "3808:25:37",
+                      "value": {
+                        "arguments": [
+                          {
+                            "name": "y",
+                            "nativeSrc": "3831:1:37",
+                            "nodeType": "YulIdentifier",
+                            "src": "3831:1:37"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "cleanup_t_uint256",
+                          "nativeSrc": "3813:17:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "3813:17:37"
+                        },
+                        "nativeSrc": "3813:20:37",
+                        "nodeType": "YulFunctionCall",
+                        "src": "3813:20:37"
+                      },
+                      "variableNames": [
+                        {
+                          "name": "y",
+                          "nativeSrc": "3808:1:37",
+                          "nodeType": "YulIdentifier",
+                          "src": "3808:1:37"
+                        }
+                      ]
+                    },
+                    {
+                      "nativeSrc": "3842:16:37",
+                      "nodeType": "YulAssignment",
+                      "src": "3842:16:37",
+                      "value": {
+                        "arguments": [
+                          {
+                            "name": "x",
+                            "nativeSrc": "3853:1:37",
+                            "nodeType": "YulIdentifier",
+                            "src": "3853:1:37"
                           },
                           {
                             "name": "y",
-                            "nativeSrc": "1319:1:3",
+                            "nativeSrc": "3856:1:37",
                             "nodeType": "YulIdentifier",
-                            "src": "1319:1:3"
+                            "src": "3856:1:37"
                           }
                         ],
                         "functionName": {
                           "name": "add",
-                          "nativeSrc": "1312:3:3",
+                          "nativeSrc": "3849:3:37",
                           "nodeType": "YulIdentifier",
-                          "src": "1312:3:3"
+                          "src": "3849:3:37"
                         },
-                        "nativeSrc": "1312:9:3",
+                        "nativeSrc": "3849:9:37",
                         "nodeType": "YulFunctionCall",
-                        "src": "1312:9:3"
+                        "src": "3849:9:37"
                       },
                       "variableNames": [
                         {
                           "name": "sum",
-                          "nativeSrc": "1305:3:3",
+                          "nativeSrc": "3842:3:37",
                           "nodeType": "YulIdentifier",
-                          "src": "1305:3:3"
+                          "src": "3842:3:37"
                         }
                       ]
                     },
                     {
                       "body": {
-                        "nativeSrc": "1344:22:3",
+                        "nativeSrc": "3882:22:37",
                         "nodeType": "YulBlock",
-                        "src": "1344:22:3",
+                        "src": "3882:22:37",
                         "statements": [
                           {
                             "expression": {
                               "arguments": [],
                               "functionName": {
                                 "name": "panic_error_0x11",
-                                "nativeSrc": "1346:16:3",
+                                "nativeSrc": "3884:16:37",
                                 "nodeType": "YulIdentifier",
-                                "src": "1346:16:3"
+                                "src": "3884:16:37"
                               },
-                              "nativeSrc": "1346:18:3",
+                              "nativeSrc": "3884:18:37",
                               "nodeType": "YulFunctionCall",
-                              "src": "1346:18:3"
+                              "src": "3884:18:37"
                             },
-                            "nativeSrc": "1346:18:3",
+                            "nativeSrc": "3884:18:37",
                             "nodeType": "YulExpressionStatement",
-                            "src": "1346:18:3"
+                            "src": "3884:18:37"
                           }
                         ]
                       },
@@ -1136,87 +2383,87 @@ export declare const Artifact_Counter: {
                         "arguments": [
                           {
                             "name": "x",
-                            "nativeSrc": "1336:1:3",
+                            "nativeSrc": "3874:1:37",
                             "nodeType": "YulIdentifier",
-                            "src": "1336:1:3"
+                            "src": "3874:1:37"
                           },
                           {
                             "name": "sum",
-                            "nativeSrc": "1339:3:3",
+                            "nativeSrc": "3877:3:37",
                             "nodeType": "YulIdentifier",
-                            "src": "1339:3:3"
+                            "src": "3877:3:37"
                           }
                         ],
                         "functionName": {
                           "name": "gt",
-                          "nativeSrc": "1333:2:3",
+                          "nativeSrc": "3871:2:37",
                           "nodeType": "YulIdentifier",
-                          "src": "1333:2:3"
+                          "src": "3871:2:37"
                         },
-                        "nativeSrc": "1333:10:3",
+                        "nativeSrc": "3871:10:37",
                         "nodeType": "YulFunctionCall",
-                        "src": "1333:10:3"
+                        "src": "3871:10:37"
                       },
-                      "nativeSrc": "1330:36:3",
+                      "nativeSrc": "3868:36:37",
                       "nodeType": "YulIf",
-                      "src": "1330:36:3"
+                      "src": "3868:36:37"
                     }
                   ]
                 },
                 "name": "checked_add_t_uint256",
-                "nativeSrc": "1247:125:3",
+                "nativeSrc": "3720:191:37",
                 "nodeType": "YulFunctionDefinition",
                 "parameters": [
                   {
                     "name": "x",
-                    "nativeSrc": "1278:1:3",
+                    "nativeSrc": "3751:1:37",
                     "nodeType": "YulTypedName",
-                    "src": "1278:1:3",
+                    "src": "3751:1:37",
                     "type": ""
                   },
                   {
                     "name": "y",
-                    "nativeSrc": "1281:1:3",
+                    "nativeSrc": "3754:1:37",
                     "nodeType": "YulTypedName",
-                    "src": "1281:1:3",
+                    "src": "3754:1:37",
                     "type": ""
                   }
                 ],
                 "returnVariables": [
                   {
                     "name": "sum",
-                    "nativeSrc": "1287:3:3",
+                    "nativeSrc": "3760:3:37",
                     "nodeType": "YulTypedName",
-                    "src": "1287:3:3",
+                    "src": "3760:3:37",
                     "type": ""
                   }
                 ],
-                "src": "1247:125:3"
+                "src": "3720:191:37"
               }
             ]
           },
-          "contents": "{\n    { }\n    function abi_encode_tuple_t_uint256__to_t_uint256__fromStack_reversed(headStart, value0) -> tail\n    {\n        tail := add(headStart, 32)\n        mstore(headStart, value0)\n    }\n    function abi_decode_tuple_t_uint256(headStart, dataEnd) -> value0\n    {\n        if slt(sub(dataEnd, headStart), 32) { revert(0, 0) }\n        value0 := calldataload(headStart)\n    }\n    function panic_error_0x11()\n    {\n        mstore(0, shl(224, 0x4e487b71))\n        mstore(4, 0x11)\n        revert(0, 0x24)\n    }\n    function increment_t_uint256(value) -> ret\n    {\n        if eq(value, not(0)) { panic_error_0x11() }\n        ret := add(value, 1)\n    }\n    function abi_encode_tuple_t_rational_1_by_1__to_t_uint256__fromStack_reversed(headStart, value0) -> tail\n    {\n        tail := add(headStart, 32)\n        mstore(headStart, value0)\n    }\n    function abi_encode_tuple_t_stringliteral_fad4697d3fcdb4442d762ccd36772e2a032f18c62f2361e273fa5186a96318ba__to_t_string_memory_ptr__fromStack_reversed(headStart) -> tail\n    {\n        mstore(headStart, 32)\n        mstore(add(headStart, 32), 35)\n        mstore(add(headStart, 64), \"incBy: increment should be posit\")\n        mstore(add(headStart, 96), \"ive\")\n        tail := add(headStart, 128)\n    }\n    function checked_add_t_uint256(x, y) -> sum\n    {\n        sum := add(x, y)\n        if gt(x, sum) { panic_error_0x11() }\n    }\n}",
-          "id": 3,
+          "contents": "{\n\n    function cleanup_t_uint256(value) -> cleaned {\n        cleaned := value\n    }\n\n    function abi_encode_t_uint256_to_t_uint256_fromStack(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    function abi_encode_tuple_t_uint256__to_t_uint256__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function allocate_unbounded() -> memPtr {\n        memPtr := mload(64)\n    }\n\n    function revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() {\n        revert(0, 0)\n    }\n\n    function revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() {\n        revert(0, 0)\n    }\n\n    function validator_revert_t_uint256(value) {\n        if iszero(eq(value, cleanup_t_uint256(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_uint256(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_uint256(value)\n    }\n\n    function abi_decode_tuple_t_uint256(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function panic_error_0x11() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x11)\n        revert(0, 0x24)\n    }\n\n    function increment_t_uint256(value) -> ret {\n        value := cleanup_t_uint256(value)\n        if eq(value, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff) { panic_error_0x11() }\n        ret := add(value, 1)\n    }\n\n    function cleanup_t_rational_1_by_1(value) -> cleaned {\n        cleaned := value\n    }\n\n    function identity(value) -> ret {\n        ret := value\n    }\n\n    function convert_t_rational_1_by_1_to_t_uint256(value) -> converted {\n        converted := cleanup_t_uint256(identity(cleanup_t_rational_1_by_1(value)))\n    }\n\n    function abi_encode_t_rational_1_by_1_to_t_uint256_fromStack(value, pos) {\n        mstore(pos, convert_t_rational_1_by_1_to_t_uint256(value))\n    }\n\n    function abi_encode_tuple_t_rational_1_by_1__to_t_uint256__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_rational_1_by_1_to_t_uint256_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function store_literal_in_memory_fad4697d3fcdb4442d762ccd36772e2a032f18c62f2361e273fa5186a96318ba(memPtr) {\n\n        mstore(add(memPtr, 0), \"incBy: increment should be posit\")\n\n        mstore(add(memPtr, 32), \"ive\")\n\n    }\n\n    function abi_encode_t_stringliteral_fad4697d3fcdb4442d762ccd36772e2a032f18c62f2361e273fa5186a96318ba_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 35)\n        store_literal_in_memory_fad4697d3fcdb4442d762ccd36772e2a032f18c62f2361e273fa5186a96318ba(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_fad4697d3fcdb4442d762ccd36772e2a032f18c62f2361e273fa5186a96318ba__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_fad4697d3fcdb4442d762ccd36772e2a032f18c62f2361e273fa5186a96318ba_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function checked_add_t_uint256(x, y) -> sum {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n        sum := add(x, y)\n\n        if gt(x, sum) { panic_error_0x11() }\n\n    }\n\n}\n",
+          "id": 37,
           "language": "Yul",
           "name": "#utility.yul"
         }
       ],
       "immutableReferences": {},
       "linkReferences": {},
-      "object": "608060405234801561000f575f5ffd5b506004361061003f575f3560e01c80630c55699c14610043578063371303c01461005d57806370119d0614610067575b5f5ffd5b61004b5f5481565b60405190815260200160405180910390f35b61006561007a565b005b61006561007536600461016d565b6100c3565b5f8054908061008883610198565b9091555050604051600181527f51af157c2eee40f68107a47a49c32fbbeb0a3c9e5cd37aa56e88e6be92368a819060200160405180910390a1565b5f81116101225760405162461bcd60e51b815260206004820152602360248201527f696e6342793a20696e6372656d656e742073686f756c6420626520706f73697460448201526269766560e81b606482015260840160405180910390fd5b805f5f82825461013291906101b0565b90915550506040518181527f51af157c2eee40f68107a47a49c32fbbeb0a3c9e5cd37aa56e88e6be92368a819060200160405180910390a150565b5f6020828403121561017d575f5ffd5b5035919050565b634e487b7160e01b5f52601160045260245ffd5b5f600182016101a9576101a9610184565b5060010190565b808201808211156101c3576101c3610184565b9291505056fea2646970667358221220fe9c149efc557b16dccd4dcf4c405e3d9d5f6c37d5a0aba3807b9cbf903a171664736f6c634300081c0033",
-      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0xF JUMPI PUSH0 PUSH0 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH2 0x3F JUMPI PUSH0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xC55699C EQ PUSH2 0x43 JUMPI DUP1 PUSH4 0x371303C0 EQ PUSH2 0x5D JUMPI DUP1 PUSH4 0x70119D06 EQ PUSH2 0x67 JUMPI JUMPDEST PUSH0 PUSH0 REVERT JUMPDEST PUSH2 0x4B PUSH0 SLOAD DUP2 JUMP JUMPDEST PUSH1 0x40 MLOAD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH2 0x65 PUSH2 0x7A JUMP JUMPDEST STOP JUMPDEST PUSH2 0x65 PUSH2 0x75 CALLDATASIZE PUSH1 0x4 PUSH2 0x16D JUMP JUMPDEST PUSH2 0xC3 JUMP JUMPDEST PUSH0 DUP1 SLOAD SWAP1 DUP1 PUSH2 0x88 DUP4 PUSH2 0x198 JUMP JUMPDEST SWAP1 SWAP2 SSTORE POP POP PUSH1 0x40 MLOAD PUSH1 0x1 DUP2 MSTORE PUSH32 0x51AF157C2EEE40F68107A47A49C32FBBEB0A3C9E5CD37AA56E88E6BE92368A81 SWAP1 PUSH1 0x20 ADD PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 LOG1 JUMP JUMPDEST PUSH0 DUP2 GT PUSH2 0x122 JUMPI PUSH1 0x40 MLOAD PUSH3 0x461BCD PUSH1 0xE5 SHL DUP2 MSTORE PUSH1 0x20 PUSH1 0x4 DUP3 ADD MSTORE PUSH1 0x23 PUSH1 0x24 DUP3 ADD MSTORE PUSH32 0x696E6342793A20696E6372656D656E742073686F756C6420626520706F736974 PUSH1 0x44 DUP3 ADD MSTORE PUSH3 0x697665 PUSH1 0xE8 SHL PUSH1 0x64 DUP3 ADD MSTORE PUSH1 0x84 ADD PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 REVERT JUMPDEST DUP1 PUSH0 PUSH0 DUP3 DUP3 SLOAD PUSH2 0x132 SWAP2 SWAP1 PUSH2 0x1B0 JUMP JUMPDEST SWAP1 SWAP2 SSTORE POP POP PUSH1 0x40 MLOAD DUP2 DUP2 MSTORE PUSH32 0x51AF157C2EEE40F68107A47A49C32FBBEB0A3C9E5CD37AA56E88E6BE92368A81 SWAP1 PUSH1 0x20 ADD PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 LOG1 POP JUMP JUMPDEST PUSH0 PUSH1 0x20 DUP3 DUP5 SUB SLT ISZERO PUSH2 0x17D JUMPI PUSH0 PUSH0 REVERT JUMPDEST POP CALLDATALOAD SWAP2 SWAP1 POP JUMP JUMPDEST PUSH4 0x4E487B71 PUSH1 0xE0 SHL PUSH0 MSTORE PUSH1 0x11 PUSH1 0x4 MSTORE PUSH1 0x24 PUSH0 REVERT JUMPDEST PUSH0 PUSH1 0x1 DUP3 ADD PUSH2 0x1A9 JUMPI PUSH2 0x1A9 PUSH2 0x184 JUMP JUMPDEST POP PUSH1 0x1 ADD SWAP1 JUMP JUMPDEST DUP1 DUP3 ADD DUP1 DUP3 GT ISZERO PUSH2 0x1C3 JUMPI PUSH2 0x1C3 PUSH2 0x184 JUMP JUMPDEST SWAP3 SWAP2 POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 INVALID SWAP13 EQ SWAP15 0xFC SSTORE PUSH28 0x16DCCD4DCF4C405E3D9D5F6C37D5A0ABA3807B9CBF903A171664736F PUSH13 0x634300081C0033000000000000 ",
-      "sourceMap": "99:299:2:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;122:13;;;;;;;;;160:25:3;;;148:2;133:18;122:13:2;;;;;;;173:69;;;:::i;:::-;;248:147;;;;;;:::i;:::-;;:::i;173:69::-;205:1;:3;;;:1;:3;;;:::i;:::-;;;;-1:-1:-1;;223:12:2;;233:1;160:25:3;;223:12:2;;148:2:3;133:18;223:12:2;;;;;;;173:69::o;248:147::-;302:1;297:2;:6;289:54;;;;-1:-1:-1;;;289:54:2;;1045:2:3;289:54:2;;;1027:21:3;1084:2;1064:18;;;1057:30;1123:34;1103:18;;;1096:62;-1:-1:-1;;;1174:18:3;;;1167:33;1217:19;;289:54:2;;;;;;;;358:2;353:1;;:7;;;;;;;:::i;:::-;;;;-1:-1:-1;;375:13:2;;160:25:3;;;375:13:2;;148:2:3;133:18;375:13:2;;;;;;;248:147;:::o;196:180:3:-;255:6;308:2;296:9;287:7;283:23;279:32;276:52;;;324:1;321;314:12;276:52;-1:-1:-1;347:23:3;;196:180;-1:-1:-1;196:180:3:o;381:127::-;442:10;437:3;433:20;430:1;423:31;473:4;470:1;463:15;497:4;494:1;487:15;513:135;552:3;573:17;;;570:43;;593:18;;:::i;:::-;-1:-1:-1;640:1:3;629:13;;513:135::o;1247:125::-;1312:9;;;1333:10;;;1330:36;;;1346:18;;:::i;:::-;1247:125;;;;:::o"
+      "object": "608060405234801561000f575f5ffd5b506004361061003f575f3560e01c80630c55699c14610043578063371303c01461006157806370119d061461006b575b5f5ffd5b61004b610087565b6040516100589190610187565b60405180910390f35b61006961008c565b005b610085600480360381019061008091906101ce565b6100dc565b005b5f5481565b5f5f81548092919061009d90610226565b91905055507f51af157c2eee40f68107a47a49c32fbbeb0a3c9e5cd37aa56e88e6be92368a8160016040516100d291906102af565b60405180910390a1565b5f811161011e576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161011590610348565b60405180910390fd5b805f5f82825461012e9190610366565b925050819055507f51af157c2eee40f68107a47a49c32fbbeb0a3c9e5cd37aa56e88e6be92368a81816040516101649190610187565b60405180910390a150565b5f819050919050565b6101818161016f565b82525050565b5f60208201905061019a5f830184610178565b92915050565b5f5ffd5b6101ad8161016f565b81146101b7575f5ffd5b50565b5f813590506101c8816101a4565b92915050565b5f602082840312156101e3576101e26101a0565b5b5f6101f0848285016101ba565b91505092915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f6102308261016f565b91507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8203610262576102616101f9565b5b600182019050919050565b5f819050919050565b5f819050919050565b5f61029961029461028f8461026d565b610276565b61016f565b9050919050565b6102a98161027f565b82525050565b5f6020820190506102c25f8301846102a0565b92915050565b5f82825260208201905092915050565b7f696e6342793a20696e6372656d656e742073686f756c6420626520706f7369745f8201527f6976650000000000000000000000000000000000000000000000000000000000602082015250565b5f6103326023836102c8565b915061033d826102d8565b604082019050919050565b5f6020820190508181035f83015261035f81610326565b9050919050565b5f6103708261016f565b915061037b8361016f565b9250828201905080821115610393576103926101f9565b5b9291505056fea2646970667358221220f22907663a824c7d309e49b699e746f50e09fbb0633025086e41c519041d2c1664736f6c634300081c0033",
+      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0xF JUMPI PUSH0 PUSH0 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH2 0x3F JUMPI PUSH0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xC55699C EQ PUSH2 0x43 JUMPI DUP1 PUSH4 0x371303C0 EQ PUSH2 0x61 JUMPI DUP1 PUSH4 0x70119D06 EQ PUSH2 0x6B JUMPI JUMPDEST PUSH0 PUSH0 REVERT JUMPDEST PUSH2 0x4B PUSH2 0x87 JUMP JUMPDEST PUSH1 0x40 MLOAD PUSH2 0x58 SWAP2 SWAP1 PUSH2 0x187 JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH2 0x69 PUSH2 0x8C JUMP JUMPDEST STOP JUMPDEST PUSH2 0x85 PUSH1 0x4 DUP1 CALLDATASIZE SUB DUP2 ADD SWAP1 PUSH2 0x80 SWAP2 SWAP1 PUSH2 0x1CE JUMP JUMPDEST PUSH2 0xDC JUMP JUMPDEST STOP JUMPDEST PUSH0 SLOAD DUP2 JUMP JUMPDEST PUSH0 PUSH0 DUP2 SLOAD DUP1 SWAP3 SWAP2 SWAP1 PUSH2 0x9D SWAP1 PUSH2 0x226 JUMP JUMPDEST SWAP2 SWAP1 POP SSTORE POP PUSH32 0x51AF157C2EEE40F68107A47A49C32FBBEB0A3C9E5CD37AA56E88E6BE92368A81 PUSH1 0x1 PUSH1 0x40 MLOAD PUSH2 0xD2 SWAP2 SWAP1 PUSH2 0x2AF JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 LOG1 JUMP JUMPDEST PUSH0 DUP2 GT PUSH2 0x11E JUMPI PUSH1 0x40 MLOAD PUSH32 0x8C379A000000000000000000000000000000000000000000000000000000000 DUP2 MSTORE PUSH1 0x4 ADD PUSH2 0x115 SWAP1 PUSH2 0x348 JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 REVERT JUMPDEST DUP1 PUSH0 PUSH0 DUP3 DUP3 SLOAD PUSH2 0x12E SWAP2 SWAP1 PUSH2 0x366 JUMP JUMPDEST SWAP3 POP POP DUP2 SWAP1 SSTORE POP PUSH32 0x51AF157C2EEE40F68107A47A49C32FBBEB0A3C9E5CD37AA56E88E6BE92368A81 DUP2 PUSH1 0x40 MLOAD PUSH2 0x164 SWAP2 SWAP1 PUSH2 0x187 JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 LOG1 POP JUMP JUMPDEST PUSH0 DUP2 SWAP1 POP SWAP2 SWAP1 POP JUMP JUMPDEST PUSH2 0x181 DUP2 PUSH2 0x16F JUMP JUMPDEST DUP3 MSTORE POP POP JUMP JUMPDEST PUSH0 PUSH1 0x20 DUP3 ADD SWAP1 POP PUSH2 0x19A PUSH0 DUP4 ADD DUP5 PUSH2 0x178 JUMP JUMPDEST SWAP3 SWAP2 POP POP JUMP JUMPDEST PUSH0 PUSH0 REVERT JUMPDEST PUSH2 0x1AD DUP2 PUSH2 0x16F JUMP JUMPDEST DUP2 EQ PUSH2 0x1B7 JUMPI PUSH0 PUSH0 REVERT JUMPDEST POP JUMP JUMPDEST PUSH0 DUP2 CALLDATALOAD SWAP1 POP PUSH2 0x1C8 DUP2 PUSH2 0x1A4 JUMP JUMPDEST SWAP3 SWAP2 POP POP JUMP JUMPDEST PUSH0 PUSH1 0x20 DUP3 DUP5 SUB SLT ISZERO PUSH2 0x1E3 JUMPI PUSH2 0x1E2 PUSH2 0x1A0 JUMP JUMPDEST JUMPDEST PUSH0 PUSH2 0x1F0 DUP5 DUP3 DUP6 ADD PUSH2 0x1BA JUMP JUMPDEST SWAP2 POP POP SWAP3 SWAP2 POP POP JUMP JUMPDEST PUSH32 0x4E487B7100000000000000000000000000000000000000000000000000000000 PUSH0 MSTORE PUSH1 0x11 PUSH1 0x4 MSTORE PUSH1 0x24 PUSH0 REVERT JUMPDEST PUSH0 PUSH2 0x230 DUP3 PUSH2 0x16F JUMP JUMPDEST SWAP2 POP PUSH32 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF DUP3 SUB PUSH2 0x262 JUMPI PUSH2 0x261 PUSH2 0x1F9 JUMP JUMPDEST JUMPDEST PUSH1 0x1 DUP3 ADD SWAP1 POP SWAP2 SWAP1 POP JUMP JUMPDEST PUSH0 DUP2 SWAP1 POP SWAP2 SWAP1 POP JUMP JUMPDEST PUSH0 DUP2 SWAP1 POP SWAP2 SWAP1 POP JUMP JUMPDEST PUSH0 PUSH2 0x299 PUSH2 0x294 PUSH2 0x28F DUP5 PUSH2 0x26D JUMP JUMPDEST PUSH2 0x276 JUMP JUMPDEST PUSH2 0x16F JUMP JUMPDEST SWAP1 POP SWAP2 SWAP1 POP JUMP JUMPDEST PUSH2 0x2A9 DUP2 PUSH2 0x27F JUMP JUMPDEST DUP3 MSTORE POP POP JUMP JUMPDEST PUSH0 PUSH1 0x20 DUP3 ADD SWAP1 POP PUSH2 0x2C2 PUSH0 DUP4 ADD DUP5 PUSH2 0x2A0 JUMP JUMPDEST SWAP3 SWAP2 POP POP JUMP JUMPDEST PUSH0 DUP3 DUP3 MSTORE PUSH1 0x20 DUP3 ADD SWAP1 POP SWAP3 SWAP2 POP POP JUMP JUMPDEST PUSH32 0x696E6342793A20696E6372656D656E742073686F756C6420626520706F736974 PUSH0 DUP3 ADD MSTORE PUSH32 0x6976650000000000000000000000000000000000000000000000000000000000 PUSH1 0x20 DUP3 ADD MSTORE POP JUMP JUMPDEST PUSH0 PUSH2 0x332 PUSH1 0x23 DUP4 PUSH2 0x2C8 JUMP JUMPDEST SWAP2 POP PUSH2 0x33D DUP3 PUSH2 0x2D8 JUMP JUMPDEST PUSH1 0x40 DUP3 ADD SWAP1 POP SWAP2 SWAP1 POP JUMP JUMPDEST PUSH0 PUSH1 0x20 DUP3 ADD SWAP1 POP DUP2 DUP2 SUB PUSH0 DUP4 ADD MSTORE PUSH2 0x35F DUP2 PUSH2 0x326 JUMP JUMPDEST SWAP1 POP SWAP2 SWAP1 POP JUMP JUMPDEST PUSH0 PUSH2 0x370 DUP3 PUSH2 0x16F JUMP JUMPDEST SWAP2 POP PUSH2 0x37B DUP4 PUSH2 0x16F JUMP JUMPDEST SWAP3 POP DUP3 DUP3 ADD SWAP1 POP DUP1 DUP3 GT ISZERO PUSH2 0x393 JUMPI PUSH2 0x392 PUSH2 0x1F9 JUMP JUMPDEST JUMPDEST SWAP3 SWAP2 POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 CALLCODE 0x29 SMOD PUSH7 0x3A824C7D309E49 0xB6 SWAP10 0xE7 CHAINID CREATE2 0xE MULMOD 0xFB 0xB0 PUSH4 0x3025086E COINBASE 0xC5 NOT DIV SAR 0x2C AND PUSH5 0x736F6C6343 STOP ADDMOD SHR STOP CALLER ",
+      "sourceMap": "99:299:32:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;122:13;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;173:69;;;:::i;:::-;;248:147;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;122:13;;;;:::o;173:69::-;205:1;;:3;;;;;;;;;:::i;:::-;;;;;;223:12;233:1;223:12;;;;;;:::i;:::-;;;;;;;;173:69::o;248:147::-;302:1;297:2;:6;289:54;;;;;;;;;;;;:::i;:::-;;;;;;;;;358:2;353:1;;:7;;;;;;;:::i;:::-;;;;;;;;375:13;385:2;375:13;;;;;;:::i;:::-;;;;;;;;248:147;:::o;7:77:37:-;44:7;73:5;62:16;;7:77;;;:::o;90:118::-;177:24;195:5;177:24;:::i;:::-;172:3;165:37;90:118;;:::o;214:222::-;307:4;345:2;334:9;330:18;322:26;;358:71;426:1;415:9;411:17;402:6;358:71;:::i;:::-;214:222;;;;:::o;523:117::-;632:1;629;622:12;769:122;842:24;860:5;842:24;:::i;:::-;835:5;832:35;822:63;;881:1;878;871:12;822:63;769:122;:::o;897:139::-;943:5;981:6;968:20;959:29;;997:33;1024:5;997:33;:::i;:::-;897:139;;;;:::o;1042:329::-;1101:6;1150:2;1138:9;1129:7;1125:23;1121:32;1118:119;;;1156:79;;:::i;:::-;1118:119;1276:1;1301:53;1346:7;1337:6;1326:9;1322:22;1301:53;:::i;:::-;1291:63;;1247:117;1042:329;;;;:::o;1377:180::-;1425:77;1422:1;1415:88;1522:4;1519:1;1512:15;1546:4;1543:1;1536:15;1563:233;1602:3;1625:24;1643:5;1625:24;:::i;:::-;1616:33;;1671:66;1664:5;1661:77;1658:103;;1741:18;;:::i;:::-;1658:103;1788:1;1781:5;1777:13;1770:20;;1563:233;;;:::o;1802:85::-;1847:7;1876:5;1865:16;;1802:85;;;:::o;1893:60::-;1921:3;1942:5;1935:12;;1893:60;;;:::o;1959:158::-;2017:9;2050:61;2068:42;2077:32;2103:5;2077:32;:::i;:::-;2068:42;:::i;:::-;2050:61;:::i;:::-;2037:74;;1959:158;;;:::o;2123:147::-;2218:45;2257:5;2218:45;:::i;:::-;2213:3;2206:58;2123:147;;:::o;2276:238::-;2377:4;2415:2;2404:9;2400:18;2392:26;;2428:79;2504:1;2493:9;2489:17;2480:6;2428:79;:::i;:::-;2276:238;;;;:::o;2520:169::-;2604:11;2638:6;2633:3;2626:19;2678:4;2673:3;2669:14;2654:29;;2520:169;;;;:::o;2695:222::-;2835:34;2831:1;2823:6;2819:14;2812:58;2904:5;2899:2;2891:6;2887:15;2880:30;2695:222;:::o;2923:366::-;3065:3;3086:67;3150:2;3145:3;3086:67;:::i;:::-;3079:74;;3162:93;3251:3;3162:93;:::i;:::-;3280:2;3275:3;3271:12;3264:19;;2923:366;;;:::o;3295:419::-;3461:4;3499:2;3488:9;3484:18;3476:26;;3548:9;3542:4;3538:20;3534:1;3523:9;3519:17;3512:47;3576:131;3702:4;3576:131;:::i;:::-;3568:139;;3295:419;;;:::o;3720:191::-;3760:3;3779:20;3797:1;3779:20;:::i;:::-;3774:25;;3813:20;3831:1;3813:20;:::i;:::-;3808:25;;3856:1;3853;3849:9;3842:16;;3877:3;3874:1;3871:10;3868:36;;;3884:18;;:::i;:::-;3868:36;3720:191;;;;:::o"
     },
     "gasEstimates": {
       "creation": {
-        "codeDepositCost": "102200",
-        "executionCost": "145",
-        "totalCost": "102345"
+        "codeDepositCost": "195000",
+        "executionCost": "236",
+        "totalCost": "195236"
       },
       "external": {
-        "inc()": "25484",
-        "incBy(uint256)": "25620",
-        "x()": "2259"
+        "inc()": "infinite",
+        "incBy(uint256)": "infinite",
+        "x()": "2402"
       }
     },
     "methodIdentifiers": {
@@ -1225,11 +2472,11 @@ export declare const Artifact_Counter: {
       "x()": "0c55699c"
     }
   },
-  "metadata": "{\"compiler\":{\"version\":\"0.8.28+commit.7893614a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"by\",\"type\":\"uint256\"}],\"name\":\"Increment\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"inc\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"by\",\"type\":\"uint256\"}],\"name\":\"incBy\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"x\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project/contracts/Counter.sol\":\"Counter\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\"project/:forge-std/console2.sol=npm/forge-std@1.9.4/src/console2.sol\"]},\"sources\":{\"npm/forge-std@1.9.4/src/console.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity >=0.4.22 <0.9.0;\\n\\nlibrary console {\\n    address constant CONSOLE_ADDRESS =\\n        0x000000000000000000636F6e736F6c652e6c6f67;\\n\\n    function _sendLogPayloadImplementation(bytes memory payload) internal view {\\n        address consoleAddress = CONSOLE_ADDRESS;\\n        /// @solidity memory-safe-assembly\\n        assembly {\\n            pop(\\n                staticcall(\\n                    gas(),\\n                    consoleAddress,\\n                    add(payload, 32),\\n                    mload(payload),\\n                    0,\\n                    0\\n                )\\n            )\\n        }\\n    }\\n\\n    function _castToPure(\\n      function(bytes memory) internal view fnIn\\n    ) internal pure returns (function(bytes memory) pure fnOut) {\\n        assembly {\\n            fnOut := fnIn\\n        }\\n    }\\n\\n    function _sendLogPayload(bytes memory payload) internal pure {\\n        _castToPure(_sendLogPayloadImplementation)(payload);\\n    }\\n\\n    function log() internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log()\\\"));\\n    }\\n\\n    function logInt(int256 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(int256)\\\", p0));\\n    }\\n\\n    function logUint(uint256 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256)\\\", p0));\\n    }\\n\\n    function logString(string memory p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string)\\\", p0));\\n    }\\n\\n    function logBool(bool p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool)\\\", p0));\\n    }\\n\\n    function logAddress(address p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address)\\\", p0));\\n    }\\n\\n    function logBytes(bytes memory p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes)\\\", p0));\\n    }\\n\\n    function logBytes1(bytes1 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes1)\\\", p0));\\n    }\\n\\n    function logBytes2(bytes2 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes2)\\\", p0));\\n    }\\n\\n    function logBytes3(bytes3 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes3)\\\", p0));\\n    }\\n\\n    function logBytes4(bytes4 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes4)\\\", p0));\\n    }\\n\\n    function logBytes5(bytes5 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes5)\\\", p0));\\n    }\\n\\n    function logBytes6(bytes6 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes6)\\\", p0));\\n    }\\n\\n    function logBytes7(bytes7 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes7)\\\", p0));\\n    }\\n\\n    function logBytes8(bytes8 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes8)\\\", p0));\\n    }\\n\\n    function logBytes9(bytes9 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes9)\\\", p0));\\n    }\\n\\n    function logBytes10(bytes10 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes10)\\\", p0));\\n    }\\n\\n    function logBytes11(bytes11 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes11)\\\", p0));\\n    }\\n\\n    function logBytes12(bytes12 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes12)\\\", p0));\\n    }\\n\\n    function logBytes13(bytes13 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes13)\\\", p0));\\n    }\\n\\n    function logBytes14(bytes14 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes14)\\\", p0));\\n    }\\n\\n    function logBytes15(bytes15 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes15)\\\", p0));\\n    }\\n\\n    function logBytes16(bytes16 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes16)\\\", p0));\\n    }\\n\\n    function logBytes17(bytes17 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes17)\\\", p0));\\n    }\\n\\n    function logBytes18(bytes18 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes18)\\\", p0));\\n    }\\n\\n    function logBytes19(bytes19 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes19)\\\", p0));\\n    }\\n\\n    function logBytes20(bytes20 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes20)\\\", p0));\\n    }\\n\\n    function logBytes21(bytes21 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes21)\\\", p0));\\n    }\\n\\n    function logBytes22(bytes22 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes22)\\\", p0));\\n    }\\n\\n    function logBytes23(bytes23 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes23)\\\", p0));\\n    }\\n\\n    function logBytes24(bytes24 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes24)\\\", p0));\\n    }\\n\\n    function logBytes25(bytes25 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes25)\\\", p0));\\n    }\\n\\n    function logBytes26(bytes26 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes26)\\\", p0));\\n    }\\n\\n    function logBytes27(bytes27 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes27)\\\", p0));\\n    }\\n\\n    function logBytes28(bytes28 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes28)\\\", p0));\\n    }\\n\\n    function logBytes29(bytes29 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes29)\\\", p0));\\n    }\\n\\n    function logBytes30(bytes30 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes30)\\\", p0));\\n    }\\n\\n    function logBytes31(bytes31 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes31)\\\", p0));\\n    }\\n\\n    function logBytes32(bytes32 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes32)\\\", p0));\\n    }\\n\\n    function log(uint256 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256)\\\", p0));\\n    }\\n\\n    function log(int256 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(int256)\\\", p0));\\n    }\\n\\n    function log(string memory p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string)\\\", p0));\\n    }\\n\\n    function log(bool p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool)\\\", p0));\\n    }\\n\\n    function log(address p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address)\\\", p0));\\n    }\\n\\n    function log(uint256 p0, uint256 p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256)\\\", p0, p1));\\n    }\\n\\n    function log(uint256 p0, string memory p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string)\\\", p0, p1));\\n    }\\n\\n    function log(uint256 p0, bool p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool)\\\", p0, p1));\\n    }\\n\\n    function log(uint256 p0, address p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address)\\\", p0, p1));\\n    }\\n\\n    function log(string memory p0, uint256 p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256)\\\", p0, p1));\\n    }\\n\\n    function log(string memory p0, int256 p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,int256)\\\", p0, p1));\\n    }\\n\\n    function log(string memory p0, string memory p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string)\\\", p0, p1));\\n    }\\n\\n    function log(string memory p0, bool p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool)\\\", p0, p1));\\n    }\\n\\n    function log(string memory p0, address p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address)\\\", p0, p1));\\n    }\\n\\n    function log(bool p0, uint256 p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256)\\\", p0, p1));\\n    }\\n\\n    function log(bool p0, string memory p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string)\\\", p0, p1));\\n    }\\n\\n    function log(bool p0, bool p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool)\\\", p0, p1));\\n    }\\n\\n    function log(bool p0, address p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address)\\\", p0, p1));\\n    }\\n\\n    function log(address p0, uint256 p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256)\\\", p0, p1));\\n    }\\n\\n    function log(address p0, string memory p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string)\\\", p0, p1));\\n    }\\n\\n    function log(address p0, bool p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool)\\\", p0, p1));\\n    }\\n\\n    function log(address p0, address p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address)\\\", p0, p1));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, string memory p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, string memory p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, string memory p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, string memory p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, bool p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, bool p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, bool p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, bool p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, address p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, address p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, address p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, address p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, uint256 p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, uint256 p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, uint256 p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, uint256 p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, string memory p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, string memory p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, string memory p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, string memory p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, bool p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, bool p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, bool p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, bool p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, address p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, address p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, address p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, address p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, uint256 p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, uint256 p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, uint256 p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, uint256 p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, string memory p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, string memory p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, string memory p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, string memory p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, bool p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, bool p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, bool p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, bool p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, address p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, address p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, address p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, address p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, uint256 p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, uint256 p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, uint256 p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, uint256 p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, string memory p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, string memory p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, string memory p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, string memory p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, bool p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, bool p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, bool p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, bool p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, address p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, address p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, address p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, address p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,address,address)\\\", p0, p1, p2, p3));\\n    }\\n}\\n\",\"keccak256\":\"0x4bbf47eb762cef93729d6ef15e78789957147039b113e5d4df48e3d3fd16d0f5\",\"license\":\"MIT\"},\"npm/forge-std@1.9.4/src/console2.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity >=0.4.22 <0.9.0;\\n\\nimport {console as console2} from \\\"./console.sol\\\";\\n\",\"keccak256\":\"0x3b8fe79f48f065a4e4d35362171304a33784c3a90febae5f2787805a438de12f\",\"license\":\"MIT\"},\"project/contracts/Counter.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity ^0.8.28;\\n\\nimport \\\"forge-std/console2.sol\\\";\\n\\ncontract Counter {\\n    uint public x;\\n\\n    event Increment(uint by);\\n\\n    function inc() public {\\n        x++;\\n        emit Increment(1);\\n    }\\n\\n    function incBy(uint by) public {\\n        require(by > 0, \\\"incBy: increment should be positive\\\");\\n        x += by;\\n        emit Increment(by);\\n    }\\n\\n}\\n\",\"keccak256\":\"0x841da706d9f9f36fd4c8087dbed164ff137fd36d6093ee302ec7689b2c9c3434\",\"license\":\"UNLICENSED\"}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.28+commit.7893614a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"by\",\"type\":\"uint256\"}],\"name\":\"Increment\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"inc\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"by\",\"type\":\"uint256\"}],\"name\":\"incBy\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"x\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project/contracts/Counter.sol\":\"Counter\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[\"project/:@chainlink/contracts/=npm/@chainlink/contracts@1.5.0/\",\"project/:@openzeppelin/contracts-upgradeable/=npm/@openzeppelin/contracts-upgradeable@4.9.6/\",\"project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.4.0/\",\"project/:forge-std/console2.sol=npm/forge-std@1.9.4/src/console2.sol\"]},\"sources\":{\"npm/forge-std@1.9.4/src/console.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity >=0.4.22 <0.9.0;\\n\\nlibrary console {\\n    address constant CONSOLE_ADDRESS =\\n        0x000000000000000000636F6e736F6c652e6c6f67;\\n\\n    function _sendLogPayloadImplementation(bytes memory payload) internal view {\\n        address consoleAddress = CONSOLE_ADDRESS;\\n        /// @solidity memory-safe-assembly\\n        assembly {\\n            pop(\\n                staticcall(\\n                    gas(),\\n                    consoleAddress,\\n                    add(payload, 32),\\n                    mload(payload),\\n                    0,\\n                    0\\n                )\\n            )\\n        }\\n    }\\n\\n    function _castToPure(\\n      function(bytes memory) internal view fnIn\\n    ) internal pure returns (function(bytes memory) pure fnOut) {\\n        assembly {\\n            fnOut := fnIn\\n        }\\n    }\\n\\n    function _sendLogPayload(bytes memory payload) internal pure {\\n        _castToPure(_sendLogPayloadImplementation)(payload);\\n    }\\n\\n    function log() internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log()\\\"));\\n    }\\n\\n    function logInt(int256 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(int256)\\\", p0));\\n    }\\n\\n    function logUint(uint256 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256)\\\", p0));\\n    }\\n\\n    function logString(string memory p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string)\\\", p0));\\n    }\\n\\n    function logBool(bool p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool)\\\", p0));\\n    }\\n\\n    function logAddress(address p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address)\\\", p0));\\n    }\\n\\n    function logBytes(bytes memory p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes)\\\", p0));\\n    }\\n\\n    function logBytes1(bytes1 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes1)\\\", p0));\\n    }\\n\\n    function logBytes2(bytes2 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes2)\\\", p0));\\n    }\\n\\n    function logBytes3(bytes3 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes3)\\\", p0));\\n    }\\n\\n    function logBytes4(bytes4 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes4)\\\", p0));\\n    }\\n\\n    function logBytes5(bytes5 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes5)\\\", p0));\\n    }\\n\\n    function logBytes6(bytes6 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes6)\\\", p0));\\n    }\\n\\n    function logBytes7(bytes7 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes7)\\\", p0));\\n    }\\n\\n    function logBytes8(bytes8 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes8)\\\", p0));\\n    }\\n\\n    function logBytes9(bytes9 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes9)\\\", p0));\\n    }\\n\\n    function logBytes10(bytes10 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes10)\\\", p0));\\n    }\\n\\n    function logBytes11(bytes11 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes11)\\\", p0));\\n    }\\n\\n    function logBytes12(bytes12 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes12)\\\", p0));\\n    }\\n\\n    function logBytes13(bytes13 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes13)\\\", p0));\\n    }\\n\\n    function logBytes14(bytes14 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes14)\\\", p0));\\n    }\\n\\n    function logBytes15(bytes15 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes15)\\\", p0));\\n    }\\n\\n    function logBytes16(bytes16 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes16)\\\", p0));\\n    }\\n\\n    function logBytes17(bytes17 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes17)\\\", p0));\\n    }\\n\\n    function logBytes18(bytes18 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes18)\\\", p0));\\n    }\\n\\n    function logBytes19(bytes19 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes19)\\\", p0));\\n    }\\n\\n    function logBytes20(bytes20 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes20)\\\", p0));\\n    }\\n\\n    function logBytes21(bytes21 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes21)\\\", p0));\\n    }\\n\\n    function logBytes22(bytes22 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes22)\\\", p0));\\n    }\\n\\n    function logBytes23(bytes23 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes23)\\\", p0));\\n    }\\n\\n    function logBytes24(bytes24 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes24)\\\", p0));\\n    }\\n\\n    function logBytes25(bytes25 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes25)\\\", p0));\\n    }\\n\\n    function logBytes26(bytes26 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes26)\\\", p0));\\n    }\\n\\n    function logBytes27(bytes27 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes27)\\\", p0));\\n    }\\n\\n    function logBytes28(bytes28 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes28)\\\", p0));\\n    }\\n\\n    function logBytes29(bytes29 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes29)\\\", p0));\\n    }\\n\\n    function logBytes30(bytes30 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes30)\\\", p0));\\n    }\\n\\n    function logBytes31(bytes31 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes31)\\\", p0));\\n    }\\n\\n    function logBytes32(bytes32 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bytes32)\\\", p0));\\n    }\\n\\n    function log(uint256 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256)\\\", p0));\\n    }\\n\\n    function log(int256 p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(int256)\\\", p0));\\n    }\\n\\n    function log(string memory p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string)\\\", p0));\\n    }\\n\\n    function log(bool p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool)\\\", p0));\\n    }\\n\\n    function log(address p0) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address)\\\", p0));\\n    }\\n\\n    function log(uint256 p0, uint256 p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256)\\\", p0, p1));\\n    }\\n\\n    function log(uint256 p0, string memory p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string)\\\", p0, p1));\\n    }\\n\\n    function log(uint256 p0, bool p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool)\\\", p0, p1));\\n    }\\n\\n    function log(uint256 p0, address p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address)\\\", p0, p1));\\n    }\\n\\n    function log(string memory p0, uint256 p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256)\\\", p0, p1));\\n    }\\n\\n    function log(string memory p0, int256 p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,int256)\\\", p0, p1));\\n    }\\n\\n    function log(string memory p0, string memory p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string)\\\", p0, p1));\\n    }\\n\\n    function log(string memory p0, bool p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool)\\\", p0, p1));\\n    }\\n\\n    function log(string memory p0, address p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address)\\\", p0, p1));\\n    }\\n\\n    function log(bool p0, uint256 p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256)\\\", p0, p1));\\n    }\\n\\n    function log(bool p0, string memory p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string)\\\", p0, p1));\\n    }\\n\\n    function log(bool p0, bool p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool)\\\", p0, p1));\\n    }\\n\\n    function log(bool p0, address p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address)\\\", p0, p1));\\n    }\\n\\n    function log(address p0, uint256 p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256)\\\", p0, p1));\\n    }\\n\\n    function log(address p0, string memory p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string)\\\", p0, p1));\\n    }\\n\\n    function log(address p0, bool p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool)\\\", p0, p1));\\n    }\\n\\n    function log(address p0, address p1) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address)\\\", p0, p1));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, string memory p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, string memory p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, string memory p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, string memory p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, bool p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, bool p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, bool p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, bool p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, address p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, address p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, address p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, address p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, uint256 p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, uint256 p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, uint256 p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, uint256 p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, string memory p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, string memory p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, string memory p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, string memory p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, bool p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, bool p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, bool p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, bool p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, address p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, address p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, address p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(string memory p0, address p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, uint256 p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, uint256 p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, uint256 p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, uint256 p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, string memory p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, string memory p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, string memory p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, string memory p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, bool p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, bool p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, bool p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, bool p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, address p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, address p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, address p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(bool p0, address p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, uint256 p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, uint256 p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, uint256 p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, uint256 p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, string memory p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, string memory p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, string memory p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, string memory p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, bool p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, bool p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, bool p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, bool p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, address p1, uint256 p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,uint256)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, address p1, string memory p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,string)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, address p1, bool p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,bool)\\\", p0, p1, p2));\\n    }\\n\\n    function log(address p0, address p1, address p2) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,address)\\\", p0, p1, p2));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, uint256 p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,uint256,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, string memory p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,string,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, bool p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,bool,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(uint256 p0, address p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(uint256,address,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, uint256 p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,uint256,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, string memory p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,string,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, bool p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,bool,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(string memory p0, address p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(string,address,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, uint256 p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,uint256,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, string memory p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,string,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, bool p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,bool,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(bool p0, address p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(bool,address,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, uint256 p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,uint256,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, string memory p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,string,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, bool p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,bool,address,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, uint256 p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,uint256,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, uint256 p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,uint256,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, uint256 p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,uint256,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, uint256 p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,uint256,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, string memory p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,string,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, string memory p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,string,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, string memory p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,string,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, string memory p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,string,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, bool p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,bool,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, bool p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,bool,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, bool p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,bool,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, bool p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,bool,address)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, address p2, uint256 p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,address,uint256)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, address p2, string memory p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,address,string)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, address p2, bool p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,address,bool)\\\", p0, p1, p2, p3));\\n    }\\n\\n    function log(address p0, address p1, address p2, address p3) internal pure {\\n        _sendLogPayload(abi.encodeWithSignature(\\\"log(address,address,address,address)\\\", p0, p1, p2, p3));\\n    }\\n}\\n\",\"keccak256\":\"0x4bbf47eb762cef93729d6ef15e78789957147039b113e5d4df48e3d3fd16d0f5\",\"license\":\"MIT\"},\"npm/forge-std@1.9.4/src/console2.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity >=0.4.22 <0.9.0;\\n\\nimport {console as console2} from \\\"./console.sol\\\";\\n\",\"keccak256\":\"0x3b8fe79f48f065a4e4d35362171304a33784c3a90febae5f2787805a438de12f\",\"license\":\"MIT\"},\"project/contracts/Counter.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity ^0.8.28;\\n\\nimport \\\"forge-std/console2.sol\\\";\\n\\ncontract Counter {\\n    uint public x;\\n\\n    event Increment(uint by);\\n\\n    function inc() public {\\n        x++;\\n        emit Increment(1);\\n    }\\n\\n    function incBy(uint by) public {\\n        require(by > 0, \\\"incBy: increment should be positive\\\");\\n        x += by;\\n        emit Increment(by);\\n    }\\n\\n}\\n\",\"keccak256\":\"0x841da706d9f9f36fd4c8087dbed164ff137fd36d6093ee302ec7689b2c9c3434\",\"license\":\"UNLICENSED\"}},\"version\":1}",
   "storageLayout": {
     "storage": [
       {
-        "astId": 8124,
+        "astId": 16294,
         "contract": "project/contracts/Counter.sol:Counter",
         "label": "x",
         "offset": 0,

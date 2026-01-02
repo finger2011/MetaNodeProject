@@ -6,7 +6,6 @@ import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
 import {AggregatorV3Interface} from "@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol";
-import "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol";
 import "forge-std/console2.sol";
 
 contract NFTAuctionV1 is Initializable {
@@ -42,8 +41,6 @@ contract NFTAuctionV1 is Initializable {
     mapping(address tokenAddress => address priceFeed) public priceFeeds;
 
     uint8 private constant USD_DECIMALS = 8;
-
-    bool public isTest;
 
     event auctionCreated(uint256 auctionID);
 
@@ -136,13 +133,11 @@ contract NFTAuctionV1 is Initializable {
         Auction storage auction = auctions[_auctionID];
         require(!auction.ended && auction.startTime + auction.duration > block.timestamp, "Auction has ended");
         uint256 greaterPrice = auction.startDollarPrice;
+        uint8 amountDecimals = uint8(18); // eth 
         if (auction.highestBidder != address(0)) {
             greaterPrice  = auction.highestDollarPrice;
-        }
-        uint8 amountDecimals = uint8(10); 
-        if (!isTest) {
-            amountDecimals = IERC20Metadata(address(auction.tokenAddress)).decimals();
-        }  
+            amountDecimals = getPriceDecimals(auction.tokenAddress);
+        } 
         uint256 bidDollarPrice= convertERC20ToUSD(_tokenAddress, _amount, amountDecimals); 
         console2.log("placeBidInERC20 value:", _amount, "; dollar:", bidDollarPrice);
         require(bidDollarPrice > greaterPrice, "Bid must higher than the current price");       
@@ -151,15 +146,11 @@ contract NFTAuctionV1 is Initializable {
             if (auction.tokenAddress == address(0)) {
                 payable(auction.highestBidder).transfer(auction.highestPrice);
             } else {
-                if (!isTest) {
-                    IERC20(address(auction.tokenAddress)).transferFrom(address(this), auction.highestBidder, auction.highestPrice);
-                }  
+                IERC20(auction.tokenAddress).transfer(auction.highestBidder, auction.highestPrice);         
             } 
         }
         // 接受最新价格
-        if(!isTest) {
-            IERC20(address(_tokenAddress)).transferFrom(msg.sender, address(this), _amount);
-        }    
+        IERC20(_tokenAddress).transferFrom(msg.sender, address(this), _amount);
         auction.highestBidder = msg.sender;
         auction.highestPrice = _amount;
         auction.highestDollarPrice = bidDollarPrice;
@@ -175,7 +166,7 @@ contract NFTAuctionV1 is Initializable {
             greaterPrice  = auction.highestDollarPrice;
         }
         uint256 bidDollarPrice = convertETHToUSD(msg.value);  
-        console2.log("placeBidInETH value:", msg.value, "; dollar:", bidDollarPrice);
+        // console2.log("placeBidInETH value:", msg.value, "; dollar:", bidDollarPrice);
         require(bidDollarPrice > greaterPrice, "Bid must higher than the current price");
 
         if (auction.highestBidder != address(0)) {
@@ -183,10 +174,9 @@ contract NFTAuctionV1 is Initializable {
             if (auction.tokenAddress == address(0)) {
                 payable(auction.highestBidder).transfer(auction.highestPrice);
             } else {
-                IERC20(address(auction.tokenAddress)).transferFrom(msg.sender, address(this), auction.highestPrice);
+                IERC20(address(auction.tokenAddress)).transfer(address(this), auction.highestPrice);
             } 
         }
-
         auction.highestBidder = msg.sender;
         auction.highestPrice = msg.value;
         auction.highestDollarPrice = bidDollarPrice;
@@ -217,9 +207,10 @@ contract NFTAuctionV1 is Initializable {
 
     // 美元结果带8位小数
     function convertERC20ToUSD(address _tokenAddress, uint256 amount, uint8 amountDecimals) public view returns (uint256) {
-        if (isTest) {
-            return amount * 50;
-        }
+        // console2.log("convertERC20ToUSD token:", _tokenAddress);
+        // console2.log("convertERC20ToUSD amount:", amount);
+        // console2.log("convertERC20ToUSD amountDecimals:", amountDecimals);
+
         int price = getLatestPrice(_tokenAddress);
         uint8 priceDecimals = getPriceDecimals(_tokenAddress);
         
@@ -227,6 +218,9 @@ contract NFTAuctionV1 is Initializable {
         // 结果有 8 位小数 
         uint256 scale = 10 ** uint256(amountDecimals + USD_DECIMALS - priceDecimals);
         uint256 usd = (amount * uint256(price)) / scale;
+        // console2.log("convertERC20ToUSD getLatestPrice:",price);
+        // console2.log("convertERC20ToUSD getPriceDecimals:",priceDecimals);
+        // console2.log("convertERC20ToUSD usd:", usd);
         return usd;
     }
 
@@ -266,23 +260,12 @@ contract NFTAuctionV1 is Initializable {
 
     // 美元结果带8位小数
     function convertETHToUSD(uint256 ethAmount) public view returns (uint256) {
-        if (isTest) {
-            return ethAmount * 100;
-        }
         return convertERC20ToUSD(address(0), ethAmount, 18);
     }
 
     function setPriceFeed(address _tokenAddress, address _priceFeedAddress) public needOwner {
         require(_priceFeedAddress != address(0), "Invalid price feed address");
         priceFeeds[_tokenAddress] = _priceFeedAddress;
-    }
-
-    function getVersion() public pure returns (string memory) {
-        return "V1";
-    }
-
-    function setTest(bool _isTest) public{
-        isTest = _isTest;
     }
 
     function getAuctionHighestInfo(uint256 _autionID) public view returns(address, address, uint256, uint256) {
@@ -292,6 +275,10 @@ contract NFTAuctionV1 is Initializable {
             auctions[_autionID].highestPrice, 
             auctions[_autionID].highestDollarPrice
         );
+    }
+
+    function getVersion() public pure returns (string memory) {
+        return "V1";
     }
 
 }
