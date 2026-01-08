@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/Voting.sol": "D"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/Voting.sol": {
+			"keccak256": "0x4560f42cf0c5ee5676dc3e02326af2557a9498a05f81abd6d1c708fa10d079df",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4daef001f7ea771727585cff5d013253ff5a52e6bf3d8b167d01f694e14dcbc6",
+				"dweb:/ipfs/QmbHyU1wJgVrNeDoKzoDeZyFGXXrUTR8Svka1HoHszcFXQ"
+			]
+		}
+	},
+	"version": 1
+}

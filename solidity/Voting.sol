@@ -7,15 +7,30 @@ contract Voting {
     address[] private users;
     mapping(address=>bool) private hasUser;
 
+    constructor(address user) {
+        hasUser[user] = true;
+        users.push(user);
+        userToVotes[user] = 0;
+    }
+
     function vote(address user) public {
-        if(!hasUser[user]) {
+        bool voted = hasUser[user];
+        if(!voted) {
             hasUser[user] = true;
             users.push(user);
             userToVotes[user] = 0;
         } else {
             userToVotes[user] += 1;
-        }
-        
+        }     
+    }
+
+    function voteByRef(address user) view public {
+        uint voteNum = userToVotes[user];
+        voteNum++;
+    }
+
+    function voteByDirect(address user) public {
+        userToVotes[user]++;
     }
 
     function getVotes(address user) public view  returns(uint) {
@@ -168,5 +183,29 @@ contract Task1 {
 
         }
         return (false, 0);
+    }
+}
+
+contract GrandParent {
+    function identify() public virtual returns (string memory) {
+        return "GrandParent";
+    }
+}
+
+contract Parent1 is GrandParent {
+    function identify() public virtual override returns (string memory) {
+        return "Parent1";
+    }
+}
+
+contract Parent2 is GrandParent {
+    function identify() public virtual override returns (string memory) {
+        return "Parent2";
+    }
+}
+
+contract Child is Parent1, Parent2 {
+    function identify() public override(Parent2, Parent1) returns (string memory) {
+        return super.identify();
     }
 }

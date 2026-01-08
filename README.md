@@ -14,7 +14,7 @@ MetaNode Academy Practise
 
 - safeTransfer等带safe前缀的接口提供了什么安全措施
 
-    - 判断to的地址是否实现了receive()方法,防止transfer失败后，代币无法被使用
+    - 判断to的地址是否实现了IERC721Receiver()方法,防止transfer失败后，代币无法被使用
 
 - delegatecall 跟 call 的区别是什么
 
