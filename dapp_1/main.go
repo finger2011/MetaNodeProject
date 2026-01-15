@@ -8,11 +8,13 @@ import (
 	"go_eth_demo/counter"
 	"log"
 	"math/big"
+	"strings"
 	"time"
 
 	"go_eth_demo/counters"
 
 	"github.com/ethereum/go-ethereum"
+	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
@@ -28,6 +30,7 @@ const (
 	// store合约的字节码
 	contractBytecode = "6080604052348015600e575f5ffd5b506103cf8061001c5f395ff3fe608060405234801561000f575f5ffd5b506004361061003f575f3560e01c80630c55699c14610043578063371303c01461006157806370119d061461006b575b5f5ffd5b61004b610087565b6040516100589190610187565b60405180910390f35b61006961008c565b005b610085600480360381019061008091906101ce565b6100dc565b005b5f5481565b5f5f81548092919061009d90610226565b91905055507f51af157c2eee40f68107a47a49c32fbbeb0a3c9e5cd37aa56e88e6be92368a8160016040516100d291906102af565b60405180910390a1565b5f811161011e576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161011590610348565b60405180910390fd5b805f5f82825461012e9190610366565b925050819055507f51af157c2eee40f68107a47a49c32fbbeb0a3c9e5cd37aa56e88e6be92368a81816040516101649190610187565b60405180910390a150565b5f819050919050565b6101818161016f565b82525050565b5f60208201905061019a5f830184610178565b92915050565b5f5ffd5b6101ad8161016f565b81146101b7575f5ffd5b50565b5f813590506101c8816101a4565b92915050565b5f602082840312156101e3576101e26101a0565b5b5f6101f0848285016101ba565b91505092915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f6102308261016f565b91507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8203610262576102616101f9565b5b600182019050919050565b5f819050919050565b5f819050919050565b5f61029961029461028f8461026d565b610276565b61016f565b9050919050565b6102a98161027f565b82525050565b5f6020820190506102c25f8301846102a0565b92915050565b5f82825260208201905092915050565b7f696e6342793a20696e6372656d656e742073686f756c6420626520706f7369745f8201527f6976650000000000000000000000000000000000000000000000000000000000602082015250565b5f6103326023836102c8565b915061033d826102d8565b604082019050919050565b5f6020820190508181035f83015261035f81610326565b9050919050565b5f6103708261016f565b915061037b8361016f565b9250828201905080821115610393576103926101f9565b5b9291505056fea2646970667358221220949149e83115d910fa27bff4d1759d07c2979999c89b6b4f9033f383054b93c264736f6c63430008210033"
 	contractAddr     = "0x4e8454cC73B6729464cb08dB018f9D298289e509"
+	StoreABI         = `[{"anonymous":false,"inputs":[{"indexed":false,"internalType":"uint256","name":"by","type":"uint256"}],"name":"Increment","type":"event"},{"inputs":[],"name":"inc","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"by","type":"uint256"}],"name":"incBy","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"x","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"}]`
 )
 
 func main() {
@@ -36,14 +39,15 @@ func main() {
 		log.Fatal(err)
 	}
 
-	blockNumber := big.NewInt(5671744)
-	getBlockInfo(blockNumber, client)
+	// blockNumber := big.NewInt(5671744)
+	// getBlockInfo(blockNumber, client)
 
-	sendTransaction(client)
+	// sendTransaction(client)
 
-	deployCounter(client)
-	deployCounterByBytecode(client)
-	executeCounter(client)
+	// deployCounter(client)
+	// deployCounterByBytecode(client)
+	// executeCounter(client)
+	readLogs(client)
 }
 
 // 执行合约代码
@@ -79,6 +83,61 @@ func executeCounter(client *ethclient.Client) {
 		return
 	}
 	fmt.Println("x value after call:", valueInContract)
+}
+
+// 读取日志
+func readLogs(client *ethclient.Client) {
+	contractAddress := common.HexToAddress(contractAddr)
+	query := ethereum.FilterQuery{
+		FromBlock: big.NewInt(10002810),
+		ToBlock:   big.NewInt(10002819),
+		Addresses: []common.Address{
+			contractAddress,
+		},
+		// Topics: [][]common.Hash{
+		//  {},
+		//  {},
+		// },
+	}
+
+	logs, err := client.FilterLogs(context.Background(), query)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	contractAbi, err := abi.JSON(strings.NewReader(StoreABI))
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	for _, vLog := range logs {
+		fmt.Println(vLog.BlockHash.Hex())
+		fmt.Println(vLog.BlockNumber)
+		fmt.Println(vLog.TxHash.Hex())
+		event := struct {
+			By big.Int
+		}{}
+		err := contractAbi.UnpackIntoInterface(&event, "incBy", vLog.Data)
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		fmt.Println(event.By)
+		var topics []string
+		for i := range vLog.Topics {
+			topics = append(topics, vLog.Topics[i].Hex())
+		}
+
+		fmt.Println("topics[0]=", topics[0])
+		if len(topics) > 1 {
+			fmt.Println("indexed topics:", topics[1:])
+		}
+	}
+
+	eventSignature := []byte("incBy(uint)")
+	hash := crypto.Keccak256Hash(eventSignature)
+	// 0x62d7ae216cf14fe49800ea97a00c26c1f584727fcec294e00957a1f3ea75e0e6
+	fmt.Println("signature topics=", hash.Hex())
 }
 
 // solcjs --bin Counter.sol
