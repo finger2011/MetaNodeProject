@@ -317,3 +317,144 @@ contract Example {
 
 记住这个核心顺序用于函数头：
 **可见性 (Visibility) -> 状态性 (Mutability) -> 继承性 (Virtual/Override) -> 自定义修饰符 (Custom)**
+
+
+## 会部分退还 Gas 的操作
+
+### 存储退款（Storage Refund）
+#### 核心退款机制：SSTORE 清零
+将存储槽从非零值设置为零值时，会获得 Gas 退款。
+```solidity
+contract StorageRefund {
+    uint256 public value;  // 初始为0
+    
+    function setAndClear() external {
+        // 设置非零值（消耗Gas）
+        value = 100;  // Gas成本: 22,100 (冷存储) 或 100 (热存储)
+        
+        // 清零获得退款
+        value = 0;    // Gas成本: 100 - 4,800退款 = 净退款4,700
+    }
+    
+    function multipleRefunds() external {
+        // 设置多个存储槽
+        uint256[10] storage values;
+        for (uint i = 0; i < 10; i++) {
+            values[i] = i + 1;  // 设置非零值
+        }
+        
+        // 批量清零获得大额退款
+        for (uint i = 0; i < 10; i++) {
+            values[i] = 0;  // 每个退款4,800
+        }
+        // 总退款: 10 * 4,800 = 48,000 gas
+    }
+}
+```
+
+#### 退款计算规则（EIP-3529后）
+```solidity
+// EIP-3529（伦敦升级）后的退款规则
+refund_rules = {
+    "refund_operations": {
+        "sstore_clearing": {
+            "amount": 4800,           // 将存储槽从非零设为零
+            "conditions": "必须是同一交易内发生的清除"
+        },
+        "selfdestruct": {
+            "amount": 0,              // EIP-3529后取消退款
+            "before_eip3529": 24000   // 之前是24,000
+        }
+    },
+    "refund_limits": {
+        "max_refund": "gas_used / 2", // 最多退还交易消耗Gas的一半
+        "calculation": "min(总退款额, gas_used / 2)"
+    },
+    "gas_tracking": {
+        "refund_counter": "跟踪累积退款额",
+        "final_adjustment": "交易结束时应用",
+        "effective_gas": "gas_used - 实际退款"
+    }
+}
+```
+
+### 自毁合约退款（SELFDESTRUCT）
+```solidity
+// 注意：EIP-3529后 selfdestruct 不再有退款！
+contract OldSelfDestruct {
+    // 伦敦升级前（2021年8月前）的代码
+    function destroy() external {
+        // 自毁合约，余额转移给 msg.sender
+        // EIP-3529前：退款24,000 gas
+        // EIP-3529后：退款0 gas
+        
+        // 现代Solidity已弃用selfdestruct
+        // 替代方案：使用委托调用代理模式
+        payable(msg.sender).transfer(address(this).balance);
+        
+        // ❌ 不要在新合约中使用：
+        // selfdestruct(payable(msg.sender));
+    }
+}
+
+// EIP-3529 取消退款的原因
+selfdestruct_problems = {
+    "gas_price_manipulation": {
+        "attack": "攻击者在低gas费时创建并销毁合约",
+        "profit": "通过退款获利，操纵gas市场",
+        "example": "创建1000个合约然后销毁"
+    },
+    "state_bloat": {
+        "issue": "鼓励频繁创建/销毁合约",
+        "impact": "增加状态大小，节点负担加重"
+    },
+    "modern_alternatives": {
+        "proxy_patterns": "使用代理合约，逻辑可升级",
+        "minimal_proxies": "ERC-1167 最小代理",
+        "stateless_design": "无状态设计模式"
+    }
+}
+```
+
+## Solidity 不支持浮点数运算
+Solidity（以及底层的以太坊虚拟机 EVM）目前不支持浮点数（如 `float` 或 `double`），主要有三个核心原因：**确定性（Determinism）**、**精度安全（Precision Safety）**以及**复杂性与成本**。
+
+以下是详细的分析：
+
+### 1. 核心原因：确定性 (Determinism) —— 区块链的基石
+这是最技术性也最重要的原因。
+
+*   **共识机制的要求**：区块链要求全网成千上万个节点必须对每一笔交易的计算结果达成完全一致（Consensus）。
+*   **硬件差异**：浮点数运算标准（IEEE 754）虽然是通用的，但在不同的硬件架构（如 Intel x86 vs ARM）、不同的操作系统、甚至不同的编译器优化级别下，**浮点数的低位精度处理可能存在微小的差异**。
+*   **后果**：如果节点 A 算出来是 `1.00000000001`，而节点 B 因为硬件不同算出来是 `1.00000000002`，虽然差别很小，但会导致哈希值（State Root）完全不同。这会导致**分叉（Fork）**，全网无法达成共识，区块链就崩溃了。
+*   **解决难度**：为了保证绝对的确定性，EVM 必须在软件层面实现一套不依赖底层硬件的“软浮点”库，但这极其复杂且运行缓慢。
+
+### 2. 金融原因：精度丢失问题
+以太坊主要是为金融交易设计的，金融系统极其厌恶“近似值”。
+
+*   **二进制的缺陷**：计算机使用二进制存储数据，无法精确表示某些十进制小数。
+    *   经典例子：在大多数编程语言中，`0.1 + 0.2` 的结果不是 `0.3`，而是 `0.30000000000000004`。
+*   **后果**：在 DeFi（去中心化金融）中，如果使用浮点数，随着交易次数的累积，这些微小的“舍入误差”会导致**资金凭空消失或凭空产生**。
+*   **需求**：银行和区块链系统需要的是**绝对精确**的计算，而不是“够用就好”的近似计算。
+
+### 3. 溢出与 Gas 成本
+*   **检查复杂**：浮点数的溢出（Overflow）和下溢（Underflow）检测比整数复杂得多。
+*   **Gas 昂贵**：如果在 EVM 层面通过软件模拟来实现确定性的浮点运算，消耗的计算资源（Gas）将非常巨大，这对于用户来说是不经济的。
+
+---
+
+### 目前的解决方案：定点数运算 (Fixed-Point Arithmetic)
+
+既然没有浮点数，Solidity 开发者是如何处理“1.5 个 ETH”或“3.5% 的利息”的呢？
+
+答案是：**全部转化为整数（Scaling）。**
+
+开发者使用“定点数”逻辑，即规定一个**精度（Decimals）**，通常是 18 位。
+
+*   **存储逻辑**：
+    *   你想存 `1 ETH`，实际在合约里存的是 `1,000,000,000,000,000,000` (10^18) Wei。
+    *   你想存 `1.5 ETH`，实际存的是 `1,500,000,000,000,000,000` Wei。
+    *   你想计算 `50%` (0.5)，实际是乘以 `50` 再除以 `100`（或者使用更精细的基数）。
+
+**总结：**
+Solidity 放弃浮点数不是因为它“做不到”，而是为了保证**全网共识不分叉**以及**金融账本一分钱都不差**。对于小数需求，通过“扩大倍数存整数”的方式完美解决了。
